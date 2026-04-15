@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Franco Sammarco — Architekt & Künstler",
+    "description": "Franco Sammarco, autodidaktischer Architekt und Künstler aus Apulien, Süditalien. Kunstwerke, Biografie und Kontakt."
+  },
+  "nav": {
+    "opere": "Werke",
+    "biografia": "Biografie",
+    "contatti": "Kontakt"
+  },
+  "hero": {
+    "label": "Architekt & Künstler",
+    "subtitle": "Autodidaktischer Architekt und Künstler aus Apulien, Süditalien. Eine künstlerische Reise vom Kubismus über die daunische Symbolik bis hin zu zeitgenössischen Mischtechniken.",
+    "cta": "Werke entdecken",
+    "scroll": "Scrollen"
+  },
+  "gallery": {
+    "label": "Galerie",
+    "title": "Werke",
+    "subtitle": "Klicken Sie auf die Bilder, um mehr zu erfahren",
+    "artworks": [
+      "Stillleben mit Panamahut",
+      "Atelier 2020",
+      "Saint Tropez",
+      "Die Ruhe nach dem Sturm",
+      "Daunische Muse",
+      "Sandy — Der Klang des Ozeans",
+      "Fossilien"
+    ]
+  },
+  "bio": {
+    "label": "Der Künstler",
+    "title": "Künstlerischer Werdegang",
+    "intro": "1971 schenkte mir ein sehr lieber Freund eine Monografie über Pablo Picasso — es war Liebe auf den ersten Blick, und von diesem Moment an begann ich, mich immer mehr für den katalanischen Meister zu interessieren. Insbesondere für die Rosa Periode, die Blaue Periode, aber vor allem für den synthetischen und den analytischen Kubismus.",
+    "period1_title": "1970er – 1980er Jahre",
+    "period1_text": "Meine 70er und 80er Jahre sind geprägt von Kompositionen, die neue Aspekte aus verschiedenen Perspektiven erfassen: Figuren, Landschaften und Stillleben. Figuren, oft mit Schwarz (Elfenbeinschwarz) umrandet. Aus dieser Zeit bleibt ein warmer Chromatismus aus Erdtönen und Ockern. Kompositorisch ist in allen Außenmotiven stets eine Wolke präsent, ebenfalls schwarz umrandet, oft mit dreieckigen Stacheln kubistischer Erinnerung. Mein Architekturstudium in Florenz und die beruflichen Erfahrungen vor der endgültigen Rückkehr nach Manfredonia (1984) markieren einen sehr wichtigen Meilenstein für mein Wachstum und meine Beziehung zum apulischen Territorium.",
+    "period2_title": "1990er – 2000er Jahre",
+    "period2_text": "Anfang der 90er Jahre wird die Figuration wesentlich, die Farben gestreckter mit klaren Farbflächen. Die Motive — vor allem Stillleben und Landschaften — tauchen in eine traumhafte Vorstellungswelt ein. Fast unwirkliche synthetische Kompositionen, in metaphysischem Schlüssel dargestellt. Dies war meine Periode mit Kadmiumgelb und Kadmiumorange, die mich fortan begleiten sollten. Von hier aus führte die wachsende Neugier auf das archäologische Erbe meiner Heimat zum Studium der berühmten Daunischen Stelen — bearbeitete Steinplatten aus dem 9. bis 4. Jahrhundert v. Chr. Die einzigartige Symbolik dieser Stelen trieb mich dazu, historische Studien und Forschungen zu vertiefen, aus denen in den 90er und 2000er Jahren zahlreiche Werke auf Leinwand, Keramik und graviertem Apricena-Stein entstanden.",
+    "period3_title": "2010er Jahre – Gegenwart",
+    "period3_text": "Seit 2010 erstreckt sich meine Forschung auf die Verwendung bescheidener Materialien (wie Bindfaden, Karton, Holz) und damit auf den Einsatz von Mischtechniken — stets begleitet von meinem „Markenzeichen“, der Wolke. Derzeit hat mich meine Leidenschaft für kunsthistorische Studien und Forschungen über die Symbolik und Grafik der Daunier und Camunier (italische Völker) besonders der Kenntnis der Techniken und der Sprache der aboriginalen Kunst nahegebracht.",
+    "masters": "Im Laufe der Jahre hatte ich mehrere wichtige Lehrmeister: Tommaso Adabbo (mein erster Mentor), Franco Troiano (langjähriger Freund und Schüler von Renato Guttuso), Gerardo Gerardi (ehemals Dozent an der Brera-Akademie in Mailand) und Vittorio Maria di Carlo (neo-kubistischer Künstler).",
+    "solo_title": "Wichtige Einzelausstellungen",
+    "solo": [
+      { "year": "2015", "text": "Die Daunier: ein Mythos im Mittelmeerraum — Matera, Italien" },
+      { "year": "2013", "text": "Musikinstrumente und Stillleben — Manfredonia, Foggia" },
+      { "year": "2005", "text": "Leinwände und Steine — Stuttgart, Deutschland" },
+      { "year": "2004", "text": "Leinwände und Steine — Manfredonia, Foggia" },
+      { "year": "1996", "text": "Auf den Wellen...der Daunier — San Giovanni Rotondo / Mattinata / Ferrara" },
+      { "year": "1992", "text": "Hommage an Silvio Ferri, Archäologe — Manfredonia, Foggia" },
+      { "year": "1982", "text": "Malerei-Ausstellung — La Spezia" },
+      { "year": "1978", "text": "Einzelausstellung Malerei — Galleria 14, Florenz" },
+      { "year": "1977", "text": "Einzelausstellung Malerei — Palazzo dei Celestini, Manfredonia" }
+    ],
+    "group_title": "Wichtige Gruppenausstellungen",
+    "group": [
+      { "year": "2015", "text": "Biennale Mailand, Mailand" },
+      { "year": "2014", "text": "Gemeinschaftsausstellung Art-time — Udine" },
+      { "year": "2003", "text": "Art Cannes, Palais des Festivals et des Congrès — Cannes, Frankreich" },
+      { "year": "2001", "text": "Zeichen der Stille, Nationales Archäologisches Museum — Manfredonia" },
+      { "year": "1995", "text": "Euro Art-EXPO, Messe Verona" }
+    ],
+    "pub_title": "Wichtige Veröffentlichungen",
+    "pub": [
+      { "year": "2020", "text": "Katalog Biancoscuro Art Contest — Winterausgabe" },
+      { "year": "2019", "text": "Biancoscuro Kunstzeitschrift Nr. 39 / L'élite Katalog 2019" },
+      { "year": "2015", "text": "Die Daunier, ein Mythos im Mittelmeerraum — Claudio Grenzi Verlag / Mondadori Katalog Moderne Kunst / Katalog Biennale Mailand (präs. Vittorio Sgarbi)" },
+      { "year": "2013", "text": "L'élite Katalog 2013, Auswahl italienischer Kunst" },
+      { "year": "2002", "text": "Katalog der Ausstellung „Premio Colori di Roma“" },
+      { "year": "1995", "text": "Katalog Euro Art EXPO'95, Verona" },
+      { "year": "1978", "text": "Katalog der Ausstellung „Premio S. Croce“, Florenz" }
+    ]
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Bleiben wir in Kontakt",
+    "subtitle": "Für Informationen zu Werken, Aufträgen oder Kooperationen",
+    "sede": "Adresse",
+    "sede_value": "Manfredonia (FG), Apulien, Italien",
+    "email_label": "E-Mail",
+    "social": "Soziale Medien",
+    "form_name": "Name",
+    "form_name_ph": "Ihr Name",
+    "form_email": "E-Mail",
+    "form_email_ph": "Ihre E-Mail-Adresse",
+    "form_message": "Nachricht",
+    "form_message_ph": "Schreiben Sie Ihre Nachricht...",
+    "form_send": "Nachricht senden",
+    "form_via_email": "Per E-Mail",
+    "success_title": "Nachricht gesendet!",
+    "success_msg": "Vielen Dank für Ihre Kontaktaufnahme. Wir werden so schnell wie möglich antworten.",
+    "error_title": "Fehler",
+    "error_msg": "Es ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt per E-Mail."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "close": "Schließen"
+  }
+}

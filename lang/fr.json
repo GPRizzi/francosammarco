@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Franco Sammarco — Architecte & Artiste",
+    "description": "Franco Sammarco, architecte et artiste autodidacte des Pouilles, dans le sud de l'Italie. Œuvres, biographie et contacts."
+  },
+  "nav": {
+    "opere": "Œuvres",
+    "biografia": "Biographie",
+    "contatti": "Contacts"
+  },
+  "hero": {
+    "label": "Architecte & Artiste",
+    "subtitle": "Architecte et artiste autodidacte vivant dans les Pouilles, dans le sud de l'Italie. Un parcours artistique du cubisme au symbolisme des Dauniens jusqu'aux techniques mixtes contemporaines.",
+    "cta": "Découvrir les œuvres",
+    "scroll": "Défiler"
+  },
+  "gallery": {
+    "label": "Galerie",
+    "title": "Œuvres",
+    "subtitle": "Cliquez sur les images pour en savoir plus",
+    "artworks": [
+      "Nature morte au Panama",
+      "Atelier 2020",
+      "Saint Tropez",
+      "Le calme après la tempête",
+      "Muse Daunienne",
+      "Sandy — Le son de l'Océan",
+      "Fossiles"
+    ]
+  },
+  "bio": {
+    "label": "L'artiste",
+    "title": "Parcours Artistique",
+    "intro": "En 1971, un ami très cher m'a offert une monographie sur Pablo Picasso — ce fut le coup de foudre, et dès cet instant, je me suis passionné de plus en plus pour le maître catalan. En particulier pour la période rose, la période bleue, mais surtout pour le cubisme synthétique et le cubisme analytique.",
+    "period1_title": "Années 70 – 80",
+    "period1_text": "Mes années 70 et 80 sont caractérisées par des compositions saisissant de nouvelles perspectives étudiées sous différents angles : figures, paysages et natures mortes. Des figures souvent cerclées de noir (noir d'ivoire). De cette période subsiste un chromatisme de couleurs chaudes, de terres et d'ocres. Du point de vue de la composition, dans tous les sujets extérieurs est toujours présent un nuage, lui aussi cerné de noir, souvent pourvu d'aiguilles triangulaires de mémoire cubiste. Mon diplôme en architecture à Florence et mes expériences professionnelles avant le retour définitif à Manfredonia (1984) marquent une étape très importante pour ma croissance et mon rapport au territoire des Pouilles.",
+    "period2_title": "Années 90 – 2000",
+    "period2_text": "Au début des années 90, la figuration devient essentielle, les couleurs plus étirées avec des aplats nets. Les sujets — surtout des natures mortes et des paysages — se trouvent plongés dans un imaginaire onirique. Des compositions synthétiques presque irréelles, représentées dans une clé métaphysique. C'est ma période du jaune de cadmium et du jaune de cadmium orangé, qui m'accompagneront désormais. D'ici naît une curiosité grandissante pour le patrimoine archéologique de mon territoire, me conduisant à l'étude des fameuses Stèles Dauniennes — des dalles de pierre sculptées du IXe au IVe siècle av. J.-C. Le symbolisme unique de ces stèles m'a poussé à approfondir des études et des recherches historiques d'où sont nées, dans les années 90 et 2000, diverses œuvres sur toile, sur céramique et en pierre d'Apricena gravée.",
+    "period3_title": "Années 2010 – aujourd'hui",
+    "period3_text": "Depuis 2010, ma recherche s'étend à l'utilisation de matériaux modestes (ficelle, carton, bois) et donc à l'emploi de techniques mixtes, toujours accompagnées de la présence de mon « marque de fabrique » : le nuage. Actuellement, ma passion pour les études et recherches historico-artistiques sur les symbolismes et graphismes des Dauniens et des Camuniens (peuples italiques) m'a rapproché tout particulièrement de la connaissance des techniques et du langage de l'art aborigène.",
+    "masters": "Au fil des années, j'ai eu plusieurs maîtres de référence : Tommaso Adabbo (mon premier mentor), Franco Troiano (ami de longue date et élève de Renato Guttuso), Gerardo Gerardi (ancien professeur à l'Académie de Brera à Milan) et Vittorio Maria di Carlo (artiste néo-cubiste).",
+    "solo_title": "Principales Expositions Personnelles",
+    "solo": [
+      { "year": "2015", "text": "Les Dauniens : un mythe en Méditerranée — Matera, Italie" },
+      { "year": "2013", "text": "Les instruments de musique et la nature morte — Manfredonia, Foggia" },
+      { "year": "2005", "text": "Toiles et pierres — Stuttgart, Allemagne" },
+      { "year": "2004", "text": "Toiles et pierres — Manfredonia, Foggia" },
+      { "year": "1996", "text": "Sur les vagues...des Dauniens — San Giovanni Rotondo / Mattinata / Ferrare" },
+      { "year": "1992", "text": "Hommage à Silvio Ferri, archéologue — Manfredonia, Foggia" },
+      { "year": "1982", "text": "Exposition de peinture — La Spezia" },
+      { "year": "1978", "text": "Exposition personnelle de peinture — Galleria 14, Florence" },
+      { "year": "1977", "text": "Exposition personnelle de peinture — Palazzo dei Celestini, Manfredonia" }
+    ],
+    "group_title": "Principales Expositions Collectives",
+    "group": [
+      { "year": "2015", "text": "Biennale de Milan, Milan" },
+      { "year": "2014", "text": "Exposition collective Art-time — Udine" },
+      { "year": "2003", "text": "Art Cannes, Palais des Festivals et des Congrès — Cannes, France" },
+      { "year": "2001", "text": "Signes du Silence, Musée Archéologique National — Manfredonia" },
+      { "year": "1995", "text": "Euro Art-EXPO, Foire de Vérone" }
+    ],
+    "pub_title": "Principales Publications",
+    "pub": [
+      { "year": "2020", "text": "Catalogue Biancoscuro Art Contest — Édition hiver" },
+      { "year": "2019", "text": "Biancoscuro Revue d'Art n° 39 / Catalogue L'élite 2019" },
+      { "year": "2015", "text": "Les Dauniens, un mythe en Méditerranée — Claudio Grenzi Éditeur / Catalogue d'Art Moderne Mondadori / Catalogue Biennale de Milan (prés. Vittorio Sgarbi)" },
+      { "year": "2013", "text": "Catalogue L'élite 2013, Sélection d'art italien" },
+      { "year": "2002", "text": "Catalogue de l'exposition « Premio Colori di Roma »" },
+      { "year": "1995", "text": "Catalogue Euro Art EXPO'95, Vérone" },
+      { "year": "1978", "text": "Catalogue de l'exposition « Premio S. Croce », Florence" }
+    ]
+  },
+  "contact": {
+    "label": "Contacts",
+    "title": "Restons en contact",
+    "subtitle": "Pour des informations sur les œuvres, commandes ou collaborations",
+    "sede": "Adresse",
+    "sede_value": "Manfredonia (FG), Pouilles, Italie",
+    "email_label": "E-mail",
+    "social": "Réseaux sociaux",
+    "form_name": "Nom",
+    "form_name_ph": "Votre nom",
+    "form_email": "E-mail",
+    "form_email_ph": "Votre e-mail",
+    "form_message": "Message",
+    "form_message_ph": "Écrivez votre message...",
+    "form_send": "Envoyer le message",
+    "form_via_email": "Par e-mail",
+    "success_title": "Message envoyé !",
+    "success_msg": "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.",
+    "error_title": "Erreur",
+    "error_msg": "Un problème est survenu. Veuillez réessayer ou nous écrire directement par e-mail."
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "close": "Fermer"
+  }
+}

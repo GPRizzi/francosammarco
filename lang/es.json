@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Franco Sammarco — Arquitecto & Artista",
+    "description": "Franco Sammarco, arquitecto y artista autodidacta de Puglia, en el sur de Italia. Obras, biografía y contactos."
+  },
+  "nav": {
+    "opere": "Obras",
+    "biografia": "Biografía",
+    "contatti": "Contacto"
+  },
+  "hero": {
+    "label": "Arquitecto & Artista",
+    "subtitle": "Arquitecto y artista autodidacta que vive en Puglia, en el sur de Italia. Un viaje artístico desde el cubismo, pasando por el simbolismo dauno, hasta las técnicas mixtas contemporáneas.",
+    "cta": "Descubre las obras",
+    "scroll": "Desplazar"
+  },
+  "gallery": {
+    "label": "Galería",
+    "title": "Obras",
+    "subtitle": "Haz clic en las imágenes para explorar",
+    "artworks": [
+      "Naturaleza muerta con Panamá",
+      "Atelier 2020",
+      "Saint Tropez",
+      "La calma después de la tempestad",
+      "Musa Dauna",
+      "Sandy — El sonido del Océano",
+      "Fósiles"
+    ]
+  },
+  "bio": {
+    "label": "El artista",
+    "title": "Trayectoria Artística",
+    "intro": "En 1971, un queridísimo amigo me regaló una monografía sobre Pablo Picasso: fue amor a primera vista y, desde ese momento, comencé a interesarme cada vez más por el artista catalán. En particular, por el período rosa, el período azul y, sobre todo, por el cubismo sintético y el cubismo analítico.",
+    "period1_title": "Años 70 – 80",
+    "period1_text": "Mis años 70 y 80 se caracterizan por composiciones que captan nuevos aspectos estudiados desde diversos puntos de vista: figuras, paisajes y naturalezas muertas. Figuras a menudo contorneadas de negro (negro de marfil). De este período permanece un cromatismo de colores cálidos, de tierras y ocres. Compositivamente, en todos los sujetos exteriores siempre está presente una nube, también contorneada de negro, a menudo con agujas triangulares de memoria cubista. La licenciatura en arquitectura en Florencia y las experiencias laborales antes del regreso definitivo a Manfredonia (1984) marcan una etapa muy importante para mi crecimiento y mi relación con el territorio pugliés.",
+    "period2_title": "Años 90 – 2000",
+    "period2_text": "A principios de los años 90, la figuración se vuelve esencial, los colores más estirados y con superficies nítidas. Los sujetos — sobre todo naturalezas muertas y paisajes — se encuentran inmersos en un imaginario onírico. Composiciones sintéticas casi irreales, representadas en clave metafísica. Este fue mi período del amarillo de cadmio y el amarillo de cadmio naranja, que me acompañarían de ahí en adelante. De aquí nace una creciente curiosidad hacia el patrimonio arqueológico de mi territorio, que me lleva al estudio de las famosas Estelas Daunas — losas de piedra labradas del siglo IX al IV a. C. El simbolismo único de estas estelas me impulsó a profundizar en estudios e investigaciones históricas de las cuales, en los años 90 y 2000, nacieron diversas obras sobre tela, cerámica y piedra de Apricena grabada.",
+    "period3_title": "Años 2010 – hoy",
+    "period3_text": "Desde 2010, mi investigación se extiende al uso de materiales humildes (como cuerda, cartón, madera) y, por tanto, al empleo de técnicas mixtas, siempre acompañadas de la presencia de mi \"marca de fábrica\": la nube. Actualmente, mi pasión por los estudios e investigaciones histórico-artísticas sobre los simbolismos y grafismos de los daunos y los camunos (pueblos itálicos) me ha acercado particularmente al conocimiento de las técnicas y el lenguaje del arte aborigen.",
+    "masters": "A lo largo de estos años he tenido varios maestros de referencia: Tommaso Adabbo (mi primer mentor), Franco Troiano (amigo de toda la vida y alumno de Renato Guttuso), Gerardo Gerardi (antiguo profesor en la Academia de Brera en Milán) y Vittorio Maria di Carlo (artista neocubista).",
+    "solo_title": "Principales Exposiciones Individuales",
+    "solo": [
+      { "year": "2015", "text": "Los Daunos: un mito en el Mediterráneo — Matera, Italia" },
+      { "year": "2013", "text": "Los instrumentos musicales y la naturaleza muerta — Manfredonia, Foggia" },
+      { "year": "2005", "text": "Telas y piedras — Stuttgart, Alemania" },
+      { "year": "2004", "text": "Telas y piedras — Manfredonia, Foggia" },
+      { "year": "1996", "text": "Sobre las olas...de los Daunos — San Giovanni Rotondo / Mattinata / Ferrara" },
+      { "year": "1992", "text": "Homenaje a Silvio Ferri, arqueólogo — Manfredonia, Foggia" },
+      { "year": "1982", "text": "Exposición de pintura — La Spezia" },
+      { "year": "1978", "text": "Exposición personal de pintura — Galleria 14, Florencia" },
+      { "year": "1977", "text": "Exposición personal de pintura — Palazzo dei Celestini, Manfredonia" }
+    ],
+    "group_title": "Principales Exposiciones Colectivas",
+    "group": [
+      { "year": "2015", "text": "Bienal de Milán, Milán" },
+      { "year": "2014", "text": "Colectiva Art-time — Udine" },
+      { "year": "2003", "text": "Art Cannes, Palais des Festivals et des Congrès — Cannes, Francia" },
+      { "year": "2001", "text": "Signos del Silencio, Museo Arqueológico Nacional — Manfredonia" },
+      { "year": "1995", "text": "Euro Art-EXPO, Feria de Verona" }
+    ],
+    "pub_title": "Publicaciones Principales",
+    "pub": [
+      { "year": "2020", "text": "Catálogo Biancoscuro Art Contest — Edición invierno" },
+      { "year": "2019", "text": "Biancoscuro Revista de Arte n.º 39 / Catálogo L'élite 2019" },
+      { "year": "2015", "text": "Los Daunos, un mito en el Mediterráneo — Claudio Grenzi Editor / Catálogo de Arte Moderno Mondadori / Catálogo Bienal de Milán (pres. Vittorio Sgarbi)" },
+      { "year": "2013", "text": "Catálogo L'élite 2013, Selección de arte italiano" },
+      { "year": "2002", "text": "Catálogo de la exposición \"Premio Colori di Roma\"" },
+      { "year": "1995", "text": "Catálogo Euro Art EXPO'95, Verona" },
+      { "year": "1978", "text": "Catálogo de la exposición \"Premio S. Croce\", Florencia" }
+    ]
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Mantengamos el contacto",
+    "subtitle": "Para información sobre obras, encargos o colaboraciones",
+    "sede": "Dirección",
+    "sede_value": "Manfredonia (FG), Puglia, Italia",
+    "email_label": "Correo electrónico",
+    "social": "Redes sociales",
+    "form_name": "Nombre",
+    "form_name_ph": "Tu nombre",
+    "form_email": "Correo electrónico",
+    "form_email_ph": "Tu correo electrónico",
+    "form_message": "Mensaje",
+    "form_message_ph": "Escribe tu mensaje...",
+    "form_send": "Enviar mensaje",
+    "form_via_email": "Por correo",
+    "success_title": "¡Mensaje enviado!",
+    "success_msg": "Gracias por contactarnos. Responderemos lo antes posible.",
+    "error_title": "Error",
+    "error_msg": "Ha ocurrido un problema. Inténtalo de nuevo o escríbenos directamente por correo."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "close": "Cerrar"
+  }
+}

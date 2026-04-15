@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Franco Sammarco — Architect & Artist",
+    "description": "Franco Sammarco, self-taught architect and artist from Puglia, Southern Italy. Artworks, biography and contacts."
+  },
+  "nav": {
+    "opere": "Artworks",
+    "biografia": "Biography",
+    "contatti": "Contacts"
+  },
+  "hero": {
+    "label": "Architect & Artist",
+    "subtitle": "A self-taught architect and artist living in Puglia, Southern Italy. An artistic journey from Cubism through Daunian symbolism to contemporary mixed media.",
+    "cta": "Discover the artworks",
+    "scroll": "Scroll"
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "Artworks",
+    "subtitle": "Click on the images to explore",
+    "artworks": [
+      "Still Life with Panama Hat",
+      "Atelier 2020",
+      "Saint Tropez",
+      "The Calm After the Storm",
+      "Daunian Muse",
+      "Sandy — The Sound of the Ocean",
+      "Fossils"
+    ]
+  },
+  "bio": {
+    "label": "The Artist",
+    "title": "Artistic Journey",
+    "intro": "In 1971, a dear friend gave me a monograph on Pablo Picasso — it was love at first sight, and from that moment I became increasingly fascinated by the Catalan master. Particularly by the Rose Period, the Blue Period, but above all, by Synthetic and Analytical Cubism.",
+    "period1_title": "1970s – 1980s",
+    "period1_text": "My '70s and '80s are characterised by compositions capturing new perspectives studied from multiple viewpoints, featuring figures, landscapes and still lifes. Figures often outlined in black (ivory black). From this period remains a warm chromaticism of earth tones and ochres. Compositionally, in all outdoor subjects there is always a cloud, also outlined in black, often with triangular spikes of Cubist memory. My degree in Architecture in Florence and working experiences before my definitive return to Manfredonia (1984) mark a very important milestone for my growth and relationship with the Apulian territory.",
+    "period2_title": "1990s – 2000s",
+    "period2_text": "In the early '90s, my figuration became essential, colours more stretched with sharp flat areas. Subjects — mostly still lifes and landscapes — are immersed in a dreamlike imaginary. Almost unreal synthetic compositions, rendered in a metaphysical key. This was my period with cadmium yellow and cadmium orange, which would accompany me from then on. From here, growing curiosity towards the archaeological heritage of my territory led me to study the famous Daunian Stelae — carved stone slabs from the 9th–4th century BC. The unique symbolism of these stelae drove me to deepen historical studies and research, from which in the '90s and 2000s many works on canvas, ceramics, and carved Apricena stone were born.",
+    "period3_title": "2010s – Present",
+    "period3_text": "Since 2010, my research has extended to humble materials (such as twine, cardboard, wood), embracing mixed-media techniques — always accompanied by my signature cloud motif. Currently, my passion for art-historical studies on the symbolism and graphic art of the Daunians and Camunians (Italic peoples) has brought me particularly close to understanding the techniques and language of Aboriginal art.",
+    "masters": "Over the years I have had several reference masters: Tommaso Adabbo (my first mentor), Franco Troiano (long-time friend and pupil of Renato Guttuso), Gerardo Gerardi (formerly professor at the Brera Academy in Milan), and Vittorio Maria di Carlo (Neo-Cubist artist).",
+    "solo_title": "Selected Solo Exhibitions",
+    "solo": [
+      { "year": "2015", "text": "I Dauni: a Myth in the Mediterranean — Matera, Italy" },
+      { "year": "2013", "text": "Musical Instruments and Still Life — Manfredonia, Foggia" },
+      { "year": "2005", "text": "Canvases and Stones — Stuttgart, Germany" },
+      { "year": "2004", "text": "Canvases and Stones — Manfredonia, Foggia" },
+      { "year": "1996", "text": "Riding the Waves...of the Daunians — San Giovanni Rotondo / Mattinata / Ferrara" },
+      { "year": "1992", "text": "Tribute to Silvio Ferri, Archaeologist — Manfredonia, Foggia" },
+      { "year": "1982", "text": "Painting Exhibition — La Spezia" },
+      { "year": "1978", "text": "Solo Painting Exhibition — Galleria 14, Florence" },
+      { "year": "1977", "text": "Solo Painting Exhibition — Palazzo dei Celestini, Manfredonia" }
+    ],
+    "group_title": "Selected Group Exhibitions",
+    "group": [
+      { "year": "2015", "text": "Milan Biennale, Milan" },
+      { "year": "2014", "text": "Art-time Group Show — Udine" },
+      { "year": "2003", "text": "Art Cannes, Palais des Festivals et des Congrès — Cannes, France" },
+      { "year": "2001", "text": "Signs from Silence, National Archaeological Museum — Manfredonia" },
+      { "year": "1995", "text": "Euro Art-EXPO, Verona Fair" }
+    ],
+    "pub_title": "Selected Publications",
+    "pub": [
+      { "year": "2020", "text": "Biancoscuro Art Contest Catalogue — Winter Edition" },
+      { "year": "2019", "text": "Biancoscuro Art Magazine no. 39 / L'élite Catalogue 2019" },
+      { "year": "2015", "text": "I Dauni: a Myth in the Mediterranean — Claudio Grenzi Publisher / Mondadori Modern Art Catalogue / Milan Biennale Catalogue (pres. by Vittorio Sgarbi)" },
+      { "year": "2013", "text": "L'élite Catalogue 2013, Italian Art Selection" },
+      { "year": "2002", "text": "\"Premio Colori di Roma\" Exhibition Catalogue" },
+      { "year": "1995", "text": "Euro Art EXPO'95 Catalogue, Verona" },
+      { "year": "1978", "text": "\"Premio S. Croce\" Exhibition Catalogue, Florence" }
+    ]
+  },
+  "contact": {
+    "label": "Contacts",
+    "title": "Get in touch",
+    "subtitle": "For information about artworks, commissions or collaborations",
+    "sede": "Location",
+    "sede_value": "Manfredonia (FG), Puglia, Italy",
+    "email_label": "Email",
+    "social": "Social",
+    "form_name": "Name",
+    "form_name_ph": "Your name",
+    "form_email": "Email",
+    "form_email_ph": "Your email",
+    "form_message": "Message",
+    "form_message_ph": "Write your message...",
+    "form_send": "Send message",
+    "form_via_email": "Via email",
+    "success_title": "Message sent!",
+    "success_msg": "Thank you for reaching out. We will reply as soon as possible.",
+    "error_title": "Error",
+    "error_msg": "Something went wrong. Please try again or write to us directly via email."
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "close": "Close"
+  }
+}

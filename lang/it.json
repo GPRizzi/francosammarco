@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Franco Sammarco — Architetto & Artista",
+    "description": "Franco Sammarco, architetto e artista autodidatta dalla Puglia. Opere d'arte, biografia e contatti."
+  },
+  "nav": {
+    "opere": "Opere",
+    "biografia": "Biografia",
+    "contatti": "Contatti"
+  },
+  "hero": {
+    "label": "Architetto & Artista",
+    "subtitle": "Architetto e artista autodidatta che vive in Puglia, nel Sud dell'Italia. Un viaggio artistico che dal cubismo attraversa il simbolismo Dauno fino alle tecniche miste contemporanee.",
+    "cta": "Scopri le opere",
+    "scroll": "Scorri"
+  },
+  "gallery": {
+    "label": "Galleria",
+    "title": "Opere",
+    "subtitle": "Clicca sulle immagini per approfondire",
+    "artworks": [
+      "Natura morta con Panama",
+      "Atelier 2020",
+      "Saint Tropez",
+      "La quiete dopo la tempesta",
+      "Musa Dauna",
+      "Sandy — Il suono dell'Oceano",
+      "Fossili"
+    ]
+  },
+  "bio": {
+    "label": "L'artista",
+    "title": "Percorso Artistico",
+    "intro": "Nel 1971 un carissimo amico mi regalò una monografia su Pablo Picasso, fu amore a prima vista e da quel momento iniziai a interessarmi sempre di più all'artista catalano. In particolare al periodo rosa, al periodo blu ma, soprattutto, al cubismo sintetico e al cubismo analitico.",
+    "period1_title": "Anni '70 – '80",
+    "period1_text": "I miei anni '70 e '80 sono caratterizzati da composizioni che colgono i nuovi aspetti studiati da vari punti prospettici e riguardano figure, paesaggi e nature morte. Figure spesso contornate di nero (nero d'avorio). Di questo periodo resta un cromatismo di colori caldi, fatti di terre e ocre. Dal punto di vista compositivo in tutti soggetti esterni è presente sempre una nuvola, anch'essa contornata di nero, spesso con aculei triangolari di memoria cubista. La laurea in architettura a Firenze e le esperienze lavorative prima del definitivo ritorno a Manfredonia (1984) segnano una tappa molto importante per la mia crescita e il mio rapporto con il territorio pugliese.",
+    "period2_title": "Anni '90 – 2000",
+    "period2_text": "Agli inizi degli anni '90 la figurazione diviene essenziale, i colori più stirati e con campiture nette. I soggetti, soprattutto nature morte e paesaggi, si trovano immersi in un immaginario onirico. Composizioni sintetiche quasi irreali, rappresentate in chiave metafisica. Questo il mio periodo con giallo di cadmio e giallo di cadmio arancio, che mi accompagneranno da lì in poi. Da qui la sempre maggiore curiosità verso la realtà archeologica del mio territorio mi portano allo studio delle famose Stele Daune, lastre in pietra lavorate del IX-IV sec. A.C.. Il simbolismo unico di queste stele mi ha spinto ad approfondire studi e ricerche storiche dalle quali negli anni '90 e 2000 sono nate diverse opere su tela, su ceramica e in pietra di Apricena incisa.",
+    "period3_title": "Anni 2010 – oggi",
+    "period3_text": "Dal 2010 la mia ricerca si estende all'uso di materiali poveri (come spago, cartone, legno) e quindi all'impiego di tecniche miste, sempre accompagnate dalla presenza del mio \"marchio di fabbrica\" rappresentato dalla nuvola. Attualmente la mia passione per gli studi e le ricerche storico-artistiche sui simbolismi e graficismi dei Dauni e dei Camuni (popoli italici) mi ha fatto avvicinare particolarmente alla conoscenza delle tecniche e del linguaggio dell'arte Aborigena.",
+    "masters": "In tutti questi anni sono stati diversi i miei maestri di riferimento: Tommaso Adabbo (primo mentore), Franco Troiano (amico di lunga data e allievo di Renato Guttuso), Gerardo Gerardi (già docente all'Accademia di Brera a Milano) e Vittorio Maria di Carlo (artista neo-cubista).",
+    "solo_title": "Principali Mostre Personali",
+    "solo": [
+      { "year": "2015", "text": "I Dauni: un mito nel Mediterraneo — Matera, Italia" },
+      { "year": "2013", "text": "Gli strumenti musicali e la natura morta — Manfredonia, Foggia" },
+      { "year": "2005", "text": "Tele e pietre — Stuttgart, Germania" },
+      { "year": "2004", "text": "Tele e pietre — Manfredonia, Foggia" },
+      { "year": "1996", "text": "Sulle onde...dei Dauni — San Giovanni Rotondo / Mattinata / Ferrara" },
+      { "year": "1992", "text": "Omaggio a Silvio Ferri archeologo — Manfredonia, Foggia" },
+      { "year": "1982", "text": "Mostra di pittura — La Spezia" },
+      { "year": "1978", "text": "Personale di Pittura — Galleria 14, Firenze" },
+      { "year": "1977", "text": "Personale di Pittura — Palazzo dei Celestini, Manfredonia" }
+    ],
+    "group_title": "Principali Mostre Collettive",
+    "group": [
+      { "year": "2015", "text": "Biennale di Milano, Milano" },
+      { "year": "2014", "text": "Collettiva Art-time — Udine" },
+      { "year": "2003", "text": "Art Cannes, Palais des Festivals et des Congrès — Cannes, France" },
+      { "year": "2001", "text": "Segni dal Silenzio, Museo Archeologico Nazionale — Manfredonia" },
+      { "year": "1995", "text": "Euro Art-EXPO, Fiera Verona" }
+    ],
+    "pub_title": "Pubblicazioni Principali",
+    "pub": [
+      { "year": "2020", "text": "Catalogo Biancoscuro Art Contest — Winter Edition" },
+      { "year": "2019", "text": "Biancoscuro Rivista d'Arte n.39 / L'élite Catalogo 2019" },
+      { "year": "2015", "text": "I Dauni un mito nel Mediterraneo — Claudio Grenzi Editore / Catalogo Arte Moderna Mondadori / Catalogo Biennale Milano (pres. Vittorio Sgarbi)" },
+      { "year": "2013", "text": "L'élite Catalogo 2013, Selezione Arte italiana" },
+      { "year": "2002", "text": "Catalogo \"Premio Colori di Roma\"" },
+      { "year": "1995", "text": "Catalogo Euro Art EXPO'95, Verona" },
+      { "year": "1978", "text": "Catalogo \"Premio S. Croce\", Firenze" }
+    ]
+  },
+  "contact": {
+    "label": "Contatti",
+    "title": "Restiamo in contatto",
+    "subtitle": "Per informazioni sulle opere, commissioni o collaborazioni",
+    "sede": "Sede",
+    "sede_value": "Manfredonia (FG), Puglia, Italia",
+    "email_label": "Email",
+    "social": "Social",
+    "form_name": "Nome",
+    "form_name_ph": "Il tuo nome",
+    "form_email": "Email",
+    "form_email_ph": "La tua email",
+    "form_message": "Messaggio",
+    "form_message_ph": "Scrivi il tuo messaggio...",
+    "form_send": "Invia messaggio",
+    "form_via_email": "Via email",
+    "success_title": "Messaggio inviato!",
+    "success_msg": "Grazie per averci contattato. Risponderemo il prima possibile.",
+    "error_title": "Errore",
+    "error_msg": "Si è verificato un problema. Riprova o scrivici direttamente via email."
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati",
+    "close": "Chiudi"
+  }
+}
