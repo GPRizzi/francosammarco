@@ -89,7 +89,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     padding: 1rem 2rem;
     transition: all 0.5s var(--ease);
 }
-.nav.scrolled {
+.nav.scrolled, .nav.detail-open {
     background: rgba(250,247,242,0.80);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -329,37 +329,130 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     color: var(--white);
 }
 
-/* ══════ LIGHTBOX ══════ */
+/* ══════ ARTWORK DETAIL ══════ */
+.artwork-detail {
+    position: fixed; inset: 0; z-index: 900;
+    background: var(--cream);
+    overflow-y: auto;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.4s var(--ease);
+}
+.artwork-detail.active { opacity: 1; pointer-events: all; }
+.artwork-detail-inner {
+    max-width: 900px; margin: 0 auto;
+    padding: 6rem 2rem 4rem;
+}
+.artwork-back {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-size: 0.82rem; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--text2); margin-bottom: 2.5rem;
+    transition: color 0.3s;
+}
+.artwork-back:hover { color: var(--gold); }
+.artwork-back svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+.artwork-detail-img {
+    width: 100%;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 2.5rem;
+    cursor: zoom-in;
+}
+.artwork-detail-title {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 300; color: var(--dark);
+    line-height: 1.15; margin-bottom: 1.5rem;
+}
+.artwork-detail-quote {
+    font-family: var(--serif);
+    font-size: 1.15rem; font-style: italic;
+    color: var(--gold); line-height: 1.7;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--gold);
+    margin-bottom: 2rem;
+}
+.artwork-meta {
+    display: flex; gap: 2rem; flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: var(--radius);
+    border: 1px solid var(--sand);
+}
+.artwork-meta-item {
+    display: flex; flex-direction: column; gap: 0.25rem;
+}
+.artwork-meta-label {
+    font-size: 0.72rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--text3);
+}
+.artwork-meta-value {
+    font-size: 0.95rem; font-weight: 400;
+    color: var(--text);
+}
+.artwork-description p {
+    font-size: 1rem; line-height: 1.85;
+    color: var(--text); font-weight: 300;
+    margin-bottom: 1.25rem;
+}
+.artwork-description p:last-child { margin-bottom: 0; }
+.artwork-details-gallery {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.artwork-details-gallery img {
+    width: 100%; border-radius: 8px;
+    box-shadow: var(--shadow);
+    cursor: zoom-in;
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+.artwork-details-gallery img:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+.artwork-nav-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 3rem; padding-top: 2rem;
+    border-top: 1px solid var(--sand);
+}
+.artwork-nav-btn {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-size: 0.82rem; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--text2);
+    padding: 0.7rem 1.2rem;
+    border: 1.5px solid var(--sand);
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.artwork-nav-btn:hover { border-color: var(--gold); color: var(--gold); }
+.artwork-nav-btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; }
+
+/* Lightbox for zoom */
 .lightbox {
-    position: fixed; inset: 0; z-index: 10000;
-    background: rgba(42,33,24,0.92);
+    position: fixed; inset: 0; z-index: 20000;
+    background: rgba(42,33,24,0.95);
     backdrop-filter: blur(20px);
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
     opacity: 0; pointer-events: none;
-    transition: opacity 0.4s var(--ease);
+    transition: opacity 0.3s var(--ease);
     padding: 1rem;
 }
 .lightbox.active { opacity: 1; pointer-events: all; }
 .lightbox-content {
-    max-width: 85vw;
-    position: relative;
-    transform: scale(0.9); transition: transform 0.5s var(--ease);
-    display: flex; flex-direction: column; align-items: center;
+    display: flex; align-items: center; justify-content: center;
+    max-width: 90vw;
 }
-.lightbox.active .lightbox-content { transform: scale(1); }
 .lightbox-content img {
-    max-width: 100%; max-height: 70vh;
+    max-width: 100%; max-height: 80vh;
     border-radius: var(--radius);
     box-shadow: 0 24px 80px rgba(0,0,0,0.4);
-    -webkit-user-drag: none;
-    user-select: none;
-}
-.lightbox-caption {
-    text-align: center; margin-top: 1rem;
-    font-family: var(--serif);
-    font-size: 1.4rem; color: var(--white);
-    font-weight: 300;
+    -webkit-user-drag: none; user-select: none;
 }
 .lightbox-close {
     position: absolute; top: 1rem; right: 1rem;
@@ -369,10 +462,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     border-radius: 50%;
     background: rgba(255,255,255,0.1);
     transition: background 0.3s;
-    z-index: 10001;
+    z-index: 20001;
 }
 .lightbox-close:hover { background: rgba(255,255,255,0.2); }
-/* Desktop nav arrows (side) */
 .lightbox-nav {
     position: absolute; top: 50%; transform: translateY(-50%);
     width: 48px; height: 48px;
@@ -385,7 +477,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .lightbox-nav:hover { background: rgba(255,255,255,0.2); }
 .lightbox-prev { left: 1.5rem; }
 .lightbox-next { right: 1.5rem; }
-/* Mobile nav arrows (bottom bar) */
 .lightbox-mobile-nav {
     display: none;
     gap: 3rem;
@@ -548,6 +639,15 @@ footer .footer-links a {
     transition: color 0.3s;
 }
 footer .footer-links a:hover { color: var(--gold-light); }
+footer .footer-credit {
+    margin-top: 1.2rem; font-size: 0.75rem;
+    color: rgba(250,247,242,0.3);
+}
+footer .footer-credit a {
+    color: rgba(250,247,242,0.45);
+    transition: color 0.3s;
+}
+footer .footer-credit a:hover { color: var(--gold-light); }
 
 /* ══════ MODAL ══════ */
 .modal-overlay {
@@ -623,10 +723,15 @@ footer .footer-links a:hover { color: var(--gold-light); }
     .gallery-overlay { opacity: 1; }
     .hero-title { font-size: clamp(2.5rem, 10vw, 4rem); }
     .section { padding: 4rem 1.5rem; }
+    .artwork-detail-inner { padding: 5rem 1.5rem 3rem; }
+    .artwork-meta { gap: 1.2rem; }
+    .artwork-details-gallery { grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+    .artwork-details-gallery img { border-radius: 6px; }
+    .artwork-nav-bar { gap: 1rem; }
+    .artwork-nav-btn { padding: 0.6rem 1rem; font-size: 0.75rem; letter-spacing: 1px; }
     .lightbox-nav { display: none; }
     .lightbox-mobile-nav { display: flex; }
-    .lightbox-content img { border-radius: 8px; max-height: 55vh; }
-    .lightbox-caption { font-size: 1.1rem; }
+    .lightbox-content img { max-height: 65vh; border-radius: 8px; }
     .exhibition-item { flex-direction: column; gap: 0.25rem; }
     .lang-switcher { display: none; }
     .mobile-instagram { display: flex; align-items: center; gap: 0.5rem; font-size: 1.2rem !important; font-family: var(--sans) !important; }
@@ -642,7 +747,7 @@ footer .footer-links a:hover { color: var(--gold-light); }
 <!-- NAVIGATION -->
 <nav class="nav" id="nav">
     <div class="nav-inner">
-        <a href="#hero" class="nav-logo">Franco Sammarco</a>
+        <a href="#hero" class="nav-logo" id="nav-logo">Franco Sammarco</a>
         <ul class="nav-links">
             <li><a href="#opere" data-i18n="nav.opere">Opere</a></li>
             <li><a href="#biografia" data-i18n="nav.biografia">Biografia</a></li>
@@ -747,14 +852,52 @@ footer .footer-links a:hover { color: var(--gold-light); }
     </div>
 </section>
 
-<!-- LIGHTBOX -->
+<!-- ARTWORK DETAIL -->
+<div class="artwork-detail" id="artwork-detail">
+    <div class="artwork-detail-inner">
+        <a href="#opere" class="artwork-back" id="artwork-back">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            <span id="artwork-back-label">Torna alle opere</span>
+        </a>
+        <h2 class="artwork-detail-title" id="artwork-detail-title"></h2>
+        <blockquote class="artwork-detail-quote" id="artwork-detail-quote"></blockquote>
+        <img class="artwork-detail-img" id="artwork-detail-img" src="" alt="" loading="lazy">
+        <div class="artwork-meta" id="artwork-meta">
+            <div class="artwork-meta-item">
+                <span class="artwork-meta-label" id="meta-label-dim">Dimensioni</span>
+                <span class="artwork-meta-value" id="artwork-dimensions"></span>
+            </div>
+            <div class="artwork-meta-item">
+                <span class="artwork-meta-label" id="meta-label-date">Data</span>
+                <span class="artwork-meta-value" id="artwork-date"></span>
+            </div>
+            <div class="artwork-meta-item">
+                <span class="artwork-meta-label" id="meta-label-tech">Tecnica</span>
+                <span class="artwork-meta-value" id="artwork-technique"></span>
+            </div>
+        </div>
+        <div class="artwork-description" id="artwork-description"></div>
+        <div class="artwork-details-gallery" id="artwork-details-gallery"></div>
+        <div class="artwork-nav-bar">
+            <button class="artwork-nav-btn" id="artwork-prev">
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                <span id="artwork-prev-label">Precedente</span>
+            </button>
+            <button class="artwork-nav-btn" id="artwork-next">
+                <span id="artwork-next-label">Successivo</span>
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- LIGHTBOX (zoom) -->
 <div class="lightbox" id="lightbox">
     <button class="lightbox-close" id="lb-close" aria-label="Chiudi">&times;</button>
     <button class="lightbox-nav lightbox-prev" id="lb-prev" aria-label="Precedente">&#8249;</button>
     <button class="lightbox-nav lightbox-next" id="lb-next" aria-label="Successivo">&#8250;</button>
     <div class="lightbox-content">
         <img id="lb-img" src="" alt="">
-        <div class="lightbox-caption" id="lb-caption"></div>
     </div>
     <div class="lightbox-mobile-nav">
         <button id="lb-prev-m" aria-label="Precedente">&#8249;</button>
@@ -864,6 +1007,7 @@ footer .footer-links a:hover { color: var(--gold-light); }
             <a href="#contatti" data-i18n="nav.contatti">Contatti</a>
             <a href="https://www.instagram.com/franco.sammarco" target="_blank" rel="noopener">Instagram</a>
         </div>
+        <p class="footer-credit">Developed by <a href="https://gprizzi.com" target="_blank" rel="noopener">Giovanni Pio Rizzi</a></p>
     </div>
 </footer>
 
@@ -895,9 +1039,21 @@ const ARTWORK_IMAGES = [
     'img/fossili.png'
 ];
 
+const ARTWORK_DETAILS_IMAGES = [
+    ['img/details/natura-morta-panama_001.png','img/details/natura-morta-panama_002.png','img/details/natura-morta-panama_003.png'],
+    ['img/details/atelier-2020_001.png','img/details/atelier-2020_002.png','img/details/atelier-2020_003.png'],
+    ['img/details/saint-tropez_001.png','img/details/saint-tropez_002.png','img/details/saint-tropez_003.png'],
+    ['img/details/la-quiete_001.png','img/details/la-quiete_002.png','img/details/la-quiete_003.png'],
+    ['img/details/musa-dauna_001.png','img/details/musa-dauna_002.png','img/details/musa-dauna_003.png'],
+    ['img/details/sandy_001.png','img/details/sandy_002.png','img/details/sandy_003.png'],
+    ['img/details/fossili_001.png','img/details/fossili_002.png','img/details/fossili_003.png']
+];
+
 const LANG_NAMES = { it: 'IT', en: 'EN', fr: 'FR', es: 'ES', de: 'DE' };
 
 let currentLang = localStorage.getItem('lang') || 'it';
+let currentIndex = 0;
+const artworkDetail = document.getElementById('artwork-detail');
 let translations = {};
 
 /* ══════ I18N ENGINE ══════ */
@@ -953,6 +1109,11 @@ async function setLang(lang) {
     document.querySelectorAll('.mobile-lang-bar button').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.lang === lang);
     });
+
+    // Refresh artwork detail if open
+    if (document.getElementById('artwork-detail').classList.contains('active')) {
+        openArtworkDetail(currentIndex);
+    }
 }
 
 function renderList(containerId, items) {
@@ -1012,6 +1173,8 @@ const sections = document.querySelectorAll('.section, .hero, .bio-section, .cont
 const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
 
 window.addEventListener('scroll', () => {
+    // Skip scroll handling when artwork detail is open
+    if (artworkDetail && artworkDetail.classList.contains('active')) return;
     nav.classList.toggle('scrolled', window.scrollY > 60);
     document.getElementById('back-to-top').classList.toggle('visible', window.scrollY > 600);
     let current = '';
@@ -1050,81 +1213,197 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-/* ══════ LIGHTBOX ══════ */
+/* ══════ ARTWORK DETAIL ══════ */
 const lightbox = document.getElementById('lightbox');
 const lbImg = document.getElementById('lb-img');
-const lbCaption = document.getElementById('lb-caption');
-let currentIndex = 0;
 
-function getArtworkTitles() {
+function getArtworkData() {
     const t = translations[currentLang];
-    return t ? t.gallery.artworks : [];
+    if (!t) return { titles: [], details: [] };
+    const details = t.gallery.details || [];
+    return { titles: t.gallery.artworks, details, t };
 }
 
-function openLightbox(index) {
-    const titles = getArtworkTitles();
+function openArtworkDetail(index) {
+    const { titles, details, t } = getArtworkData();
     currentIndex = index;
-    lbImg.src = ARTWORK_IMAGES[index];
-    lbImg.alt = titles[index] || '';
-    lbCaption.textContent = titles[index] || '';
-    lightbox.classList.add('active');
+    const detail = details[index];
+    const title = titles[index] || '';
+
+    // Image
+    const img = document.getElementById('artwork-detail-img');
+    img.src = ARTWORK_IMAGES[index];
+    img.alt = title;
+
+    // Title
+    document.getElementById('artwork-detail-title').textContent = title;
+
+    // Quote
+    const quoteEl = document.getElementById('artwork-detail-quote');
+    if (detail && detail.quote) {
+        quoteEl.textContent = detail.quote;
+        quoteEl.style.display = '';
+    } else {
+        quoteEl.style.display = 'none';
+    }
+
+    // Meta
+    const metaEl = document.getElementById('artwork-meta');
+    if (detail) {
+        document.getElementById('artwork-dimensions').textContent = detail.dimensions || '';
+        document.getElementById('artwork-date').textContent = detail.date || '';
+        document.getElementById('artwork-technique').textContent = detail.technique || '';
+        document.getElementById('meta-label-dim').textContent = t.gallery.info_dimensions || 'Dimensioni';
+        document.getElementById('meta-label-date').textContent = t.gallery.info_date || 'Data';
+        document.getElementById('meta-label-tech').textContent = t.gallery.info_technique || 'Tecnica';
+        metaEl.style.display = '';
+    } else {
+        metaEl.style.display = 'none';
+    }
+
+    // Description
+    const descEl = document.getElementById('artwork-description');
+    if (detail && detail.description) {
+        descEl.innerHTML = detail.description.map(p => `<p>${p}</p>`).join('');
+    } else {
+        descEl.innerHTML = '';
+    }
+
+    // Navigation labels
+    document.getElementById('artwork-back-label').textContent = t.gallery.back || 'Torna alle opere';
+    document.getElementById('artwork-prev-label').textContent = t.gallery.prev || 'Precedente';
+    document.getElementById('artwork-next-label').textContent = t.gallery.next || 'Successivo';
+
+    // Detail images gallery
+    const galleryEl = document.getElementById('artwork-details-gallery');
+    const detailImgs = ARTWORK_DETAILS_IMAGES[index];
+    if (detailImgs && detailImgs.length) {
+        galleryEl.innerHTML = detailImgs.map(src =>
+            `<img src="${src}" alt="" loading="lazy">`
+        ).join('');
+        galleryEl.style.display = '';
+        // Click to zoom detail images — open lightbox at that image
+        galleryEl.querySelectorAll('img').forEach((img, i) => {
+            img.addEventListener('click', () => {
+                const allImages = [ARTWORK_IMAGES[currentIndex], ...detailImgs];
+                openLightbox(allImages, i + 1); // +1 because main image is at index 0
+            });
+        });
+    } else {
+        galleryEl.innerHTML = '';
+        galleryEl.style.display = 'none';
+    }
+
+    // Show
+    artworkDetail.classList.add('active');
+    artworkDetail.scrollTop = 0;
     document.body.style.overflow = 'hidden';
+    nav.classList.add('detail-open');
+}
+
+function closeArtworkDetail() {
+    artworkDetail.classList.remove('active');
+    document.body.style.overflow = '';
+    nav.classList.remove('detail-open');
+}
+
+// Gallery items open detail
+document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => openArtworkDetail(parseInt(item.dataset.index)));
+});
+
+// Back button — close detail and scroll to gallery
+document.getElementById('artwork-back').addEventListener('click', e => {
+    e.preventDefault();
+    closeArtworkDetail();
+    setTimeout(() => {
+        document.getElementById('opere').scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+});
+
+// Nav links and logo close detail view
+document.querySelectorAll('.nav-links a[href^="#"], .mobile-link[href^="#"], #nav-logo').forEach(a => {
+    a.addEventListener('click', () => {
+        if (artworkDetail.classList.contains('active')) {
+            closeArtworkDetail();
+        }
+    });
+});
+
+// Prev/Next
+document.getElementById('artwork-prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + ARTWORK_IMAGES.length) % ARTWORK_IMAGES.length;
+    openArtworkDetail(currentIndex);
+});
+document.getElementById('artwork-next').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % ARTWORK_IMAGES.length;
+    openArtworkDetail(currentIndex);
+});
+
+// ══════ LIGHTBOX WITH NAVIGATION ══════
+let lbImages = [];
+let lbIndex = 0;
+
+function openLightbox(images, startIndex) {
+    lbImages = images;
+    lbIndex = startIndex;
+    showLightboxImage();
+    lightbox.classList.add('active');
+}
+
+function showLightboxImage() {
+    lbImg.src = lbImages[lbIndex];
+    lbImg.alt = '';
 }
 
 function closeLightbox() {
     lightbox.classList.remove('active');
-    document.body.style.overflow = '';
 }
 
-document.querySelectorAll('.gallery-item').forEach(item => {
-    item.addEventListener('click', () => openLightbox(parseInt(item.dataset.index)));
-});
-document.getElementById('lb-close').addEventListener('click', closeLightbox);
-lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
-document.getElementById('lb-prev').addEventListener('click', e => {
-    e.stopPropagation();
-    currentIndex = (currentIndex - 1 + ARTWORK_IMAGES.length) % ARTWORK_IMAGES.length;
-    openLightbox(currentIndex);
-});
-document.getElementById('lb-next').addEventListener('click', e => {
-    e.stopPropagation();
-    currentIndex = (currentIndex + 1) % ARTWORK_IMAGES.length;
-    openLightbox(currentIndex);
-});
-document.getElementById('lb-prev-m').addEventListener('click', e => {
-    e.stopPropagation();
-    currentIndex = (currentIndex - 1 + ARTWORK_IMAGES.length) % ARTWORK_IMAGES.length;
-    openLightbox(currentIndex);
-});
-document.getElementById('lb-next-m').addEventListener('click', e => {
-    e.stopPropagation();
-    currentIndex = (currentIndex + 1) % ARTWORK_IMAGES.length;
-    openLightbox(currentIndex);
-});
-document.addEventListener('keydown', e => {
-    if (!lightbox.classList.contains('active')) return;
-    if (e.key === 'Escape') closeLightbox();
-    if (e.key === 'ArrowLeft') { currentIndex = (currentIndex - 1 + ARTWORK_IMAGES.length) % ARTWORK_IMAGES.length; openLightbox(currentIndex); }
-    if (e.key === 'ArrowRight') { currentIndex = (currentIndex + 1) % ARTWORK_IMAGES.length; openLightbox(currentIndex); }
+function lbPrev() {
+    lbIndex = (lbIndex - 1 + lbImages.length) % lbImages.length;
+    showLightboxImage();
+}
+
+function lbNext() {
+    lbIndex = (lbIndex + 1) % lbImages.length;
+    showLightboxImage();
+}
+
+// Main artwork image click — opens lightbox with main + detail images
+document.getElementById('artwork-detail-img').addEventListener('click', () => {
+    const allImages = [ARTWORK_IMAGES[currentIndex], ...(ARTWORK_DETAILS_IMAGES[currentIndex] || [])];
+    openLightbox(allImages, 0);
 });
 
-/* ══════ LIGHTBOX SWIPE (touch) ══════ */
-let touchStartX = 0;
-let touchEndX = 0;
-lightbox.addEventListener('touchstart', e => {
-    touchStartX = e.changedTouches[0].screenX;
-}, { passive: true });
+// Close / nav buttons
+document.getElementById('lb-close').addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+document.getElementById('lb-prev').addEventListener('click', e => { e.stopPropagation(); lbPrev(); });
+document.getElementById('lb-next').addEventListener('click', e => { e.stopPropagation(); lbNext(); });
+document.getElementById('lb-prev-m').addEventListener('click', e => { e.stopPropagation(); lbPrev(); });
+document.getElementById('lb-next-m').addEventListener('click', e => { e.stopPropagation(); lbNext(); });
+
+// Swipe on lightbox
+let lbTouchX = 0;
+lightbox.addEventListener('touchstart', e => { lbTouchX = e.changedTouches[0].screenX; }, { passive: true });
 lightbox.addEventListener('touchend', e => {
-    touchEndX = e.changedTouches[0].screenX;
-    const diff = touchStartX - touchEndX;
-    if (Math.abs(diff) > 50) {
-        if (diff > 0) {
-            currentIndex = (currentIndex + 1) % ARTWORK_IMAGES.length;
-        } else {
-            currentIndex = (currentIndex - 1 + ARTWORK_IMAGES.length) % ARTWORK_IMAGES.length;
-        }
-        openLightbox(currentIndex);
+    const diff = lbTouchX - e.changedTouches[0].screenX;
+    if (Math.abs(diff) > 50) { diff > 0 ? lbNext() : lbPrev(); }
+});
+
+// Keyboard
+document.addEventListener('keydown', e => {
+    if (lightbox.classList.contains('active')) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') lbPrev();
+        if (e.key === 'ArrowRight') lbNext();
+        return;
     }
+    if (!artworkDetail.classList.contains('active')) return;
+    if (e.key === 'Escape') closeArtworkDetail();
+    if (e.key === 'ArrowLeft') { currentIndex = (currentIndex - 1 + ARTWORK_IMAGES.length) % ARTWORK_IMAGES.length; openArtworkDetail(currentIndex); }
+    if (e.key === 'ArrowRight') { currentIndex = (currentIndex + 1) % ARTWORK_IMAGES.length; openArtworkDetail(currentIndex); }
 });
 
 /* ══════ CONTACT FORM ══════ */

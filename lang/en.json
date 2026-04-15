@@ -18,6 +18,12 @@
     "label": "Gallery",
     "title": "Artworks",
     "subtitle": "Click on the images to explore",
+    "back": "Back to artworks",
+    "prev": "Previous",
+    "next": "Next",
+    "info_dimensions": "Dimensions",
+    "info_date": "Date",
+    "info_technique": "Technique",
     "artworks": [
       "Still Life with Panama Hat",
       "Atelier 2020",
@@ -26,6 +32,86 @@
       "Daunian Muse",
       "Sandy — The Sound of the Ocean",
       "Fossils"
+    ],
+    "details": [
+      {
+        "quote": "Every day in the Northern Territory there is a new sunset, an endless cycle of new colours.",
+        "dimensions": "50×40 cm",
+        "date": "June 2020",
+        "technique": "Acrylic on canvas",
+        "description": [
+          "When I arrived in Darwin, Australia, I didn't expect to find a sun with such insidious rays. To take shelter from the tropical, hot and dry days of the Dry Season in the Northern Territory, the first solution was to buy a Panama hat. This hat has accompanied me during my daily walks, especially those in the afternoon which, almost every day, lasted until sunset.",
+          "This corner of Australian territory gives us such priceless sunsets. In particular, along the coast of Darwin, the sun, through the natural moving of the clouds, projects its rays beyond the horizon, up to the last flashes of light. Especially on the inlets of Cullen Bay, Mindil Beach and Nightcliff, my very favourites. It was the latter that inspired my \"Still life with Panama Hat\".",
+          "Every day in the Northern Territory there is a new sunset, an endless cycle of new colours. During one of these sunsets I stopped and sat with my feet on the sand, which emerged from the low tide, to observe a couple of lovers (pictured here with two red capsicums) who, near the shore, toasted with a glass of red wine. The lights of this magnificent sunset melted in their glasses, setting them towards the horizon as if they were two rubies. I started imagining that that wine was from Chianti, just like the Chianti I used to sip when, during the ten years I lived in Tuscany, I was going to the Arno river's banks to admire the colours of Florence at sunset.",
+          "At the two ends of the composition there are two leaves. On the left a large leaf of \"Monstera Deliciosa\" to represent the transience of life, on the right instead a leaf of \"Frangipani\" (Plumeria) that refers to a new day, a new life. In fact, although fallen from the branch, it resists with just that much sap that allows it to give birth to a new plant, a new day, a new love. Could it not be the transition to a new artistic path that, in this particular period of my life, led me to become so passionate about such a distant and different land from mine?"
+        ]
+      },
+      {
+        "quote": "The mark of Guernica is the demonstration of this current fragmented society without certainty. The only certainty left is the home, shield of the arts and passions.",
+        "dimensions": "122×92 cm",
+        "date": "April 2020",
+        "technique": "Acrylic on canvas",
+        "description": [
+          "The work was born in Australia where I stayed for 3 months (March–June 2020) due to travel restrictions during this particular period. I started working on a first draft upon arriving in Darwin, during the period of \"voluntary self-isolation\" at my son's house, who has been living here for over 3 years. While helping my son build a dining table with a grey concrete top and yellow-painted tubular steel frame, I got the idea to set my work right in the dining area of the house — my temporary atelier. I immediately thought of Picasso and Renato Guttuso, two of my greatest artistic references.",
+          "Compositionally, at the centre, I was inspired by Guttuso's 1947 \"Still Life with Axe\": the flasks always reminded me of my childhood, the September weeks when in Viareggio I helped an uncle weave straw around flasks and demijohns. On the table, there are also lemons and prickly pears — fruits of Puglia, my homeland — which bring me closer to Guttuso's Sicily. Finally, at the centre of the table sits one of my favourite books, \"Frederick II, Emperor\" by Ernst Kantorowicz. The book represents culture, the foundation of knowledge and science; while Frederick II, known as Puer Apuliae (son of Puglia, my region), father of Manfred (founder of Manfredonia, my city), represents the direct link between culture and my homeland.",
+          "On the walls hang two works, as if they were paintings owned by the artist. On the right wall, a detail from \"Guernica\", Picasso's masterpiece: where the Bull of that time recalls today's Pandemic; the tormented, wounded horse represents man \"annulled\", struck in his pride, still unable to discover the vaccine, the antidote to the plague of the century, Covid-19. The women on the side once again express the despair that reigns in homes struck by illness. The flower sprouting from the ground carries the task of still hoping for life, for the future!",
+          "On the left wall hangs a work inspired by Aboriginal art, a tribute to this millennia-old culture that I discovered in recent years through my travels in Australia. The plant flourishing before the painting and the light, together with the Still Life and Guernica, signify the return to respect for the Earth and Nature.",
+          "This work demonstrates that one's thoughts and passions can be packed in a suitcase and change latitude but not intensity. I brought Puglia with me in many present references, and the Atelier also makes me think of Van Gogh's room in its colours and style."
+        ]
+      },
+      {
+        "quote": "The truth is in nature, and I shall prove it. — Paul Cézanne",
+        "dimensions": "50×35 cm",
+        "date": "February 2020",
+        "technique": "Acrylic on canvas",
+        "description": [
+          "This work represents my personal bond with the Côte d'Azur and Provence, places dear to some of the artists who most marked my artistic journey, such as Picasso and Cézanne.",
+          "The painting depicts the well-known town of Saint-Tropez in a view from the hill overlooking the old town and the bay. The work originates from a preparatory study made in 2003 during my stay on the French Riviera for the group exhibition at the Palais des Festivals in Cannes.",
+          "The rooftops and façades of the houses in the foreground, reduced to essential geometry through the prevalence of straight lines, sharp edges and colour range, evocatively recall the villages of my homeland, especially those on the Gargano coast. The houses stand before the barren, sun-drenched landscape of the coastal headland, while the sea serves as connective tissue between them."
+        ]
+      },
+      {
+        "quote": "The horse in this metaphor represents man living in a frantic society, where the trivial is predominant.",
+        "dimensions": "60×50 cm",
+        "date": "August 2019",
+        "technique": "Acrylic on canvas",
+        "description": [
+          "The work is set on the slopes of the Gargano, in the Gulf of Manfredonia. At the centre, in the foreground, a horse by the seashore stops, almost astonished, before a stone fragment — an archaeological artefact from the pre-Roman era. Its tempestuous, vehement gallop nearly ceases before culture, before archaeology.",
+          "The horse in this metaphor represents man living in a frantic society, where the trivial is predominant. While the archaeological artefact represents the call to search for one's own being and roots, capable of capturing our attention when we least expect it."
+        ]
+      },
+      {
+        "quote": "The Muse, a female figure from the archaic-mythological imagery, was a source of luck and good fortune.",
+        "dimensions": "50×60 cm",
+        "date": "September 2015",
+        "technique": "Acrylic on canvas",
+        "description": [
+          "This subject is a tribute to my dear friend, the master and painter Vittorio Maria di Carlo, a Milanese artist who recently passed away.",
+          "This work is part of a \"historical\" series that I have been developing for several years. A sort of decoding of archaic-mythological imagery through the study of figures and compositions that draw from the archaeology of my territory, ancient Daunia, in Puglia.",
+          "The iconography represents a female figure, a source of luck and good fortune — the figure of the Muse, representative of antiquity, as narrated in Greco-Roman civilisations."
+        ]
+      },
+      {
+        "quote": "Sandy dragged shells from the sea that trapped within them the sounds, noises and notes typical of hurricanes.",
+        "dimensions": "40×50 cm",
+        "date": "July 2013",
+        "technique": "Acrylic on canvas",
+        "description": [
+          "Sandy represents the most vivid memory of my first visit to Boston between late October and November 2012. The hurricane struck the East Coast on October 29th, mainly hitting New York. I made a study right after the event, then completed the canvas painting upon returning to Italy.",
+          "Painted with acrylics, it presents a satellite view of Hurricane Sandy. The American East Coast appears \"covered\" by the event, with the eye focused on New York City. The hurricane, starting from the sea, dragged algae and shells for dozens of kilometres inland. The latter naturally contain the sounds and noises of the sea. I imagine they also trapped the sounds of the hurricane, carried along the spiralling vortex, as if floating towards the observer.",
+          "The work was exhibited at Palazzo San Domenico in Manfredonia in September 2013, under the patronage of the City of Manfredonia and in collaboration with the International Guitar Festival."
+        ]
+      },
+      {
+        "quote": "In my homeland, the beaches of the Gargano carry with them the furrows of nature and its millennia-old course.",
+        "dimensions": "50×60 cm",
+        "date": "June 2019",
+        "technique": "Mixed media on canvas",
+        "description": [
+          "My homeland, the Gargano, has beaches that carry with them the furrows of nature and its millennia-old course.",
+          "Our grandparents told us about fantastic discoveries, and indeed, even today, from time to time, among fossils and shells, the remains of a vanished history also emerge — traces of a civilisation that no longer exists, pushed by the Earth and swallowed by the Sea, the Daunians."
+        ]
+      }
     ]
   },
   "bio": {

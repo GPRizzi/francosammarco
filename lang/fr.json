@@ -18,6 +18,12 @@
     "label": "Galerie",
     "title": "Œuvres",
     "subtitle": "Cliquez sur les images pour en savoir plus",
+    "back": "Retour aux œuvres",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "info_dimensions": "Dimensions",
+    "info_date": "Date",
+    "info_technique": "Technique",
     "artworks": [
       "Nature morte au Panama",
       "Atelier 2020",
@@ -26,6 +32,86 @@
       "Muse Daunienne",
       "Sandy — Le son de l'Océan",
       "Fossiles"
+    ],
+    "details": [
+      {
+        "quote": "Chaque jour dans le Northern Territory, il y a un nouveau coucher de soleil, un cycle infini de nouvelles couleurs.",
+        "dimensions": "50×40 cm",
+        "date": "Juin 2020",
+        "technique": "Acrylique sur toile",
+        "description": [
+          "En arrivant à Darwin, en Australie, je ne m'attendais pas à trouver un soleil aux rayons si insidieux. Pour me protéger des journées tropicales, chaudes et sèches, de la Dry Season dans le Northern Territory, la première solution fut d'acheter un chapeau Panama. Ce chapeau m'a accompagné lors de mes promenades quotidiennes, en particulier celles de l'après-midi qui, presque chaque jour, se prolongeaient jusqu'au coucher du soleil.",
+          "Ce coin de territoire australien nous offre des couchers de soleil impayables. Le long de la côte de Darwin notamment, le soleil, par le jeu naturel des nuages, projette ses rayons encore au-delà de l'horizon, jusqu'aux dernières lueurs de lumière, comme sur les criques de Cullen Bay, Mindil Beach et Nightcliff, mes préférées. C'est justement cette dernière qui m'a inspiré « Nature morte au Panama ».",
+          "Chaque jour dans le Northern Territory, il y a un nouveau coucher de soleil, un cycle infini de nouvelles couleurs. Lors d'un de ces couchers de soleil, je me suis arrêté, pieds nus sur le sable découvert par la marée basse, pour observer un couple d'amoureux (représenté ici par deux poivrons rouges) qui, près du rivage, trinquait avec du vin rouge. Les lumières de ce magnifique coucher de soleil se fondaient dans leurs verres, les sertissant vers l'horizon comme deux rubis. J'ai imaginé que ce vin était du Chianti, tout comme le Chianti que je savourais lorsque, durant les dix années passées en Toscane, je me rendais sur les rives de l'Arno pour admirer les couleurs de Florence au crépuscule.",
+          "Aux deux extrémités de la composition trônent deux feuilles. À gauche, une grande feuille de « Monstera Deliciosa » représentant la caducité de la vie ; à droite, une feuille de « Frangipani » (Plumeria) qui renvoie vers un nouveau jour, une nouvelle vie. En effet, même détachée de la branche, elle résiste avec ce peu de sève qui lui permet de faire renaître une nouvelle plante, un nouveau jour, un nouvel amour. Ne serait-ce pas la transition vers une nouvelle voie artistique qui, en cette période particulière de ma vie, m'a conduit à me passionner autant pour un territoire si lointain et si différent du mien ?"
+        ]
+      },
+      {
+        "quote": "L'empreinte de Guernica est la démonstration de cette société actuelle fragmentée et sans certitude. La seule certitude qui demeure est la maison, bouclier des arts et des passions.",
+        "dimensions": "122×92 cm",
+        "date": "Avril 2020",
+        "technique": "Acrylique sur toile",
+        "description": [
+          "L'œuvre est née en Australie, où je suis resté pendant trois mois (mars-juin 2020) en raison de l'impossibilité de voyager durant cette période particulière. J'ai commencé à travailler sur une première ébauche une fois arrivé à Darwin, pendant la période d'« auto-isolement volontaire » chez mon fils, qui vit ici depuis plus de trois ans. Tandis que j'aidais mon fils à réaliser une table à manger avec un plateau en béton gris et une structure en fer tubulaire peinte en jaune, l'idée m'est venue de situer mon œuvre précisément dans la salle à manger de la maison, c'est-à-dire mon atelier temporaire. J'ai immédiatement pensé à Picasso et à Renato Guttuso, deux de mes plus grands artistes de référence.",
+          "Du point de vue de la composition, au centre, je me suis inspiré de la « Nature morte à la hache » de 1947 de Guttuso : les fiasques de cette œuvre m'ont toujours rappelé mon enfance, les semaines de septembre où, à Viareggio, j'aidais un oncle à empailler fiasques et bonbonnes. Sur la table figurent également des citrons et des figues de Barbarie, fruits des Pouilles, ma terre natale, qui me rapprochent de la Sicile de Guttuso. Enfin, au centre de la table se trouve l'un de mes livres préférés, « Federico II Imperatore » d'Ernst Kantorowicz. La figure du livre représente la culture, fondement du savoir et de la science ; tandis que la figure de Frédéric II, dit Puer Apuliae (fils des Pouilles, ma région), père de Manfred (fondateur de Manfredonia, ma ville), représente le lien direct entre la culture et ma terre.",
+          "Sur les murs figurent deux œuvres, comme deux tableaux en possession de l'artiste. Sur le mur de droite, un détail de « Guernica », l'œuvre majeure de Picasso : le Taureau d'alors rappelle la Pandémie d'aujourd'hui ; le cheval torturé, blessé, représente l'homme « anéanti », atteint dans son orgueil, qui ne parvient pas encore à découvrir le vaccin, l'antidote au mal du siècle, le Covid-19. Les femmes, une fois encore, expriment le désespoir qui règne dans les foyers frappés par le fléau. À la fleur qui surgit de terre revient la mission d'espérer encore en la vie, en l'avenir !",
+          "Sur le mur de gauche est composée une œuvre qui s'inspire de l'art aborigène, un hommage à cette culture millénaire que j'ai découverte ces dernières années grâce à mes voyages en Australie. La plante qui s'épanouit devant le tableau et la lumière, ensemble avec la Nature morte et Guernica, symbolisent le retour au respect de la Terre et de la Nature.",
+          "Cette œuvre est la démonstration que l'on peut mettre ses pensées et ses passions dans une valise et changer de latitude sans changer d'intensité. J'ai emporté les Pouilles avec moi à travers de nombreuses références présentes, et l'Atelier me fait aussi penser à la chambre de Van Gogh, par les couleurs et le style."
+        ]
+      },
+      {
+        "quote": "J'ai voulu lier les lignes fuyantes de la nature — Paul Cézanne",
+        "dimensions": "50×35 cm",
+        "date": "Février 2020",
+        "technique": "Acrylique sur toile",
+        "description": [
+          "Cette œuvre représente mon lien personnel avec la Côte d'Azur et la Provence, lieux chers à certains des artistes qui ont le plus marqué mon parcours artistique, comme Picasso et Cézanne.",
+          "Le tableau représente la célèbre petite ville de Saint-Tropez dans une vue depuis la colline qui surplombe le centre historique et la baie. L'œuvre est née d'une étude préparée en 2003, lors de mon séjour sur la Côte d'Azur à l'occasion de l'exposition collective au Palais des Festivals de Cannes.",
+          "Les toits et les façades des maisons au premier plan, réduits à une géométrie essentielle par la prédominance de lignes droites, d'arêtes vives et d'une gamme chromatique, évoquent de manière saisissante les villages de ma terre, en particulier ceux de la côte du Gargano. Les maisons se dressent devant le paysage aride et ensoleillé du promontoire côtier, tandis que la mer sert de tissu conjonctif entre les deux."
+        ]
+      },
+      {
+        "quote": "Le cheval, dans cette métaphore, représente l'homme qui vit dans une société frénétique, où le futile prédomine.",
+        "dimensions": "60×50 cm",
+        "date": "Août 2019",
+        "technique": "Acrylique sur toile",
+        "description": [
+          "L'œuvre se situe au pied du Gargano, dans le Golfe de Manfredonia. Au centre, au premier plan, un cheval au bord de la mer s'arrête, presque stupéfait, devant un fragment de pierre. Vestige archéologique d'époque pré-romaine. Sa course tempétueuse, véhémente, s'annule presque devant la culture, devant l'archéologie.",
+          "Le cheval, dans cette métaphore, représente l'homme qui vit dans une société frénétique, où le futile prédomine. Le vestige archéologique représente quant à lui le rappel à la recherche de son propre être et de ses propres racines, capable d'attirer notre attention quand nous nous y attendons le moins."
+        ]
+      },
+      {
+        "quote": "La Muse, figure féminine de l'imaginaire archaïque et mythologique, était source de fortune et de bonne augure.",
+        "dimensions": "50×60 cm",
+        "date": "Septembre 2015",
+        "technique": "Acrylique sur toile",
+        "description": [
+          "Ce sujet est un hommage à mon très cher ami, le maître et peintre Vittorio Maria di Carlo, artiste milanais récemment disparu.",
+          "Cette œuvre fait partie d'un cycle « historique » que je poursuis depuis plusieurs années. Une sorte de décodage de l'imaginaire archaïque et mythologique à travers l'étude de figures et de compositions qui se rattachent à l'archéologie de mon territoire, l'antique Daunia, dans les Pouilles.",
+          "L'iconographie représente une figure féminine source de fortune et de bonne augure, la figure de la Muse, représentative de l'Antiquité, telle que narrée dans les civilisations gréco-romaines."
+        ]
+      },
+      {
+        "quote": "Sandy a traîné avec lui depuis la mer des coquillages qui ont emprisonné en leur sein les sons, les bruits et les notes typiques des ouragans.",
+        "dimensions": "40×50 cm",
+        "date": "Juillet 2013",
+        "technique": "Acrylique sur toile",
+        "description": [
+          "Sandy représente le souvenir le plus vif de ma première visite à Boston entre fin octobre et novembre 2012. L'ouragan s'est abattu sur la côte Est le 29 octobre, frappant principalement New York. J'ai réalisé une étude juste après l'événement, puis j'ai peint l'œuvre sur toile à mon retour en Italie.",
+          "Réalisée avec des couleurs acryliques, elle propose une vue satellitaire de l'ouragan Sandy. La côte orientale américaine apparaît « recouverte » par l'événement, l'œil étant centré sur New York City. L'ouragan, venant de la mer, a traîné algues et coquillages sur des dizaines de kilomètres dans les terres. Ces derniers renferment naturellement les sons et bruits marins. J'imagine qu'ils contiennent aussi les sons de l'ouragan, reportés le long du vortex en spirale, comme s'ils flottaient vers l'observateur.",
+          "L'œuvre a été exposée au Palazzo San Domenico à Manfredonia en septembre 2013, sous le patronage de la Commune de Manfredonia et en collaboration avec le Festival International de Guitare."
+        ]
+      },
+      {
+        "quote": "Dans ma terre, les plages du Gargano portent en elles les sillons de la nature et de son cours millénaire.",
+        "dimensions": "50×60 cm",
+        "date": "Juin 2019",
+        "technique": "Technique mixte sur toile",
+        "description": [
+          "Ma Terre, le Gargano, possède des plages qui portent en elles les sillons de la nature et de son cours millénaire.",
+          "Nos grands-parents nous racontaient de fantastiques découvertes et, en effet, encore aujourd'hui, de temps à autre, parmi les fossiles et les coquillages, émergent aussi les restes d'une histoire disparue, les traces d'une civilisation qui n'est plus, poussée par la Terre et aspirée par la Mer : les Dauniens."
+        ]
+      }
     ]
   },
   "bio": {

@@ -18,6 +18,12 @@
     "label": "Galleria",
     "title": "Opere",
     "subtitle": "Clicca sulle immagini per approfondire",
+    "back": "Torna alle opere",
+    "prev": "Precedente",
+    "next": "Successivo",
+    "info_dimensions": "Dimensioni",
+    "info_date": "Data",
+    "info_technique": "Tecnica",
     "artworks": [
       "Natura morta con Panama",
       "Atelier 2020",
@@ -26,6 +32,86 @@
       "Musa Dauna",
       "Sandy — Il suono dell'Oceano",
       "Fossili"
+    ],
+    "details": [
+      {
+        "quote": "Ogni giorno nel Northern Territory c'è un tramonto nuovo, un ciclo infinito di nuovi colori.",
+        "dimensions": "50×40 cm",
+        "date": "Giugno 2020",
+        "technique": "Acrilico su tela",
+        "description": [
+          "Arrivato a Darwin, in Australia, non aspettavo di trovare un sole con dei raggi così insidiosi. Per correre ai ripari dalle giornate tropicali, calde e secche, della Dry Season nel Northern Territory, la prima soluzione è stata quella di acquistare un cappello Panama. Cappello che mi ha accompagnato durante le mie passeggiate quotidiane, specialmente quelle del pomeriggio che, quasi ogni giorno, si protraevano fino al tramonto.",
+          "Questo angolo di territorio Australiano ci regala dei tramonti impagabili. In particolare, lungo la costa di Darwin, il sole attraverso il gioco naturale delle nuvole proietta ancora oltre l'orizzonte i suoi raggi, fino agli ultimi sprazzi di luce, come sulle insenature di Cullen Bay, Mindil Beach e Nightcliff, le mie preferite. Proprio quest'ultima, mi ha ispirato \"Natura morta con Panama\".",
+          "Ogni giorno nel Northern Territory c'è un tramonto nuovo, un ciclo infinito di nuovi colori. Durante uno di questi tramonti mi sono fermato con i piedi sulla sabbia, emersa dalla bassa marea, ad osservare una coppia di innamorati (raffigurata qui con due peperoni rossi) che, in prossimità della riva, brindava con del vino rosso. Le luci di questo tramonto magnifico si fondevano nei loro bicchieri, incastonandoli verso l'orizzonte come fossero due rubini. Ho immaginato che quel vino fosse del Chianti, proprio come il Chianti che sorseggiavo quando, durante i dieci anni trascorsi in Toscana, mi recavo sulle rive dell'Arno ad ammirare i colori di Firenze al tramonto.",
+          "Alle due estremità della composizione campeggiano due foglie. Sulla sinistra una grande foglia di \"Monstera Deliciosa\" a rappresentare la caducità della vita, sulla destra invece una foglia di \"Frangipani\" (Plumeria) che rimanda verso un nuovo giorno, una nuova vita. Infatti, essa pur staccata dal ramo, resiste con quel tanto di linfa che le consente di far rinascere una nuova pianta, un nuovo giorno, un nuovo amore. Che non sia forse la transizione ad una nuova via artistica quella che, in questo particolare periodo della mia vita, mi ha portato ad appassionarmi cosi tanto ad un territorio lontano e così diverso dal mio?"
+        ]
+      },
+      {
+        "quote": "Il marchio di Guernica è la dimostrazione di questa società attuale frammentata e senza certezza. L'unica certezza rimasta è la casa, scudo delle arti e delle passioni.",
+        "dimensions": "122×92 cm",
+        "date": "Aprile 2020",
+        "technique": "Acrilico su tela",
+        "description": [
+          "L'opera nasce in Australia dove sono rimasto per 3 mesi (marzo-giugno 2020) a causa dell'impossibilità di viaggiare di questo particolare periodo. Ho iniziato a lavorare ad una prima bozza una volta arrivato a Darwin, durante il periodo di \"auto-isolamento volontario\" a casa di mio figlio, che vive qui da oltre 3 anni. Mentre aiutavo mio figlio a realizzare un tavolo da pranzo con piano in cemento grigio e struttura in ferro scatolare verniciato di giallo, mi è venuta l'idea di ambientare la mia opera proprio nella zona pranzo della casa, ovvero il mio temporaneo atelier. Pensai subito a Picasso e a Renato Guttuso, due dei miei più grandi artisti di riferimento.",
+          "Dal punto di vista compositivo, al centro, mi sono ispirato alla \"Natura Morta con la scure\" del 1947 di Guttuso: i fiaschi della quale mi hanno sempre ricordato la mia infanzia, le settimane di settembre, quando a Viareggio aiutavo uno zio a impagliare fiaschi e damigiane. Sul tavolo, inoltre, vi sono i limoni e i fichi d'India frutti della Puglia, mia terra natia, che mi avvicina alla Sicilia di Guttuso. Infine, al centro del tavolo è presente uno dei miei libri preferiti, \"Federico II Imperatore\" di Ernst Kantorowicz. La figura del libro rappresenta la cultura, che è alla base del sapere e della scienza; mentre la figura di Federico II, detto Puer Apuliae (figlio della Puglia, la mia regione), padre di Manfredi (fondatore di Manfredonia, la mia città) invece rappresenta il legame diretto tra la cultura e la mia terra.",
+          "Sulle pareti sono presenti due opere, come fossero due quadri in possesso dell'artista. Sulla parte di destra un particolare di \"Guernica\", l'opera magna di Picasso: dove il Toro di allora richiama la Pandemia di oggi; il cavallo straziato, ferito, rappresenta l'uomo \"annullato\", colpito nell'orgoglio che non riesce ancora a scoprire il vaccino, l'antidoto al male del secolo, il Covid-19. Le donne sul lato ancora una volta esprimono la disperazione che regna nelle case colpite dal male. Al fiore che spunta da terra resta il compito di sperare ancora nella vita, nel futuro!",
+          "Sulla parete di sinistra è composta un'opera che si ispira all'arte Aborigena, un omaggio a questa cultura millenaria che ho scoperto negli ultimi anni grazie ai miei viaggi in Australia. La pianta che rigoglisce davanti al quadro e alla luce, insieme alla Natura Morta e a Guernica, stanno ad indicare il ritorno al rispetto della Terra e della Natura.",
+          "Quest'opera è la dimostrazione che i propri pensieri e le proprie passioni si possono mettere in valigia e cambiare latitudine ma non intensità. Ho portato la Puglia con me in tanti riferimenti presenti e l'Atelier mi fa pensare anche alla stanza di Van Gogh per colori e stile."
+        ]
+      },
+      {
+        "quote": "Ho voluto legare le linee fuggenti della natura — Paul Cézanne",
+        "dimensions": "50×35 cm",
+        "date": "Febbraio 2020",
+        "technique": "Acrilico su tela",
+        "description": [
+          "Quest'opera rappresenta il mio legame personale con la Costa Azzurra e la Provenza, luoghi cari ad alcuni degli artisti che più hanno segnato il mio percorso artistico, come Picasso e Cézanne.",
+          "Il quadro raffigura la nota cittadina di Saint-Tropez in una veduta dalla collina che sovrasta il centro storico e la baia. L'opera nasce da uno studio preparato nel 2003 durante la mia permanenza sulla Costa Azzurra in occasione della collettiva al Palazzo del Festival di Cannes.",
+          "I tetti e le facciate delle case in primo piano, ridotti ad una essenziale geometria attraverso il prevalere di linee rette, spigoli vivi e gamma cromatica richiamano in maniera accattivante i paesi della mia terra, specialmente quelli sulla costa del Gargano. Le case si antepongono al paesaggio brullo e assolato del promontorio costiero, mentre il mare fa da tessuto connettivo a entrambi."
+        ]
+      },
+      {
+        "quote": "Il cavallo in questa metafora rappresenta l'uomo che vive in una società frenetica, dove il futile è predominante.",
+        "dimensions": "60×50 cm",
+        "date": "Agosto 2019",
+        "technique": "Acrilico su tela",
+        "description": [
+          "L'opera è ambientata alle pendici del Gargano, nel Golfo di Manfredonia. Al centro, in primo piano, un cavallo in riva al mare che si ferma, quasi stupito, davanti ad un frammento lapideo. Reperto archeologico di epoca pre romana. La sua corsa tempestosa, veemente, si annulla quasi davanti alla cultura, all'archeologia.",
+          "Il cavallo in questa metafora rappresenta l'uomo che vive in una società frenetica, dove il futile è predominante. Mentre il reperto archeologico rappresenta il richiamo alla ricerca del proprio essere e delle proprie radici, capace di attirare la nostra attenzione quando meno ce lo aspettiamo."
+        ]
+      },
+      {
+        "quote": "La Musa, figura femminile dell'immaginario arcaico-mitologico, era fonte di fortuna e buona sorte.",
+        "dimensions": "50×60 cm",
+        "date": "Settembre 2015",
+        "technique": "Acrilico su tela",
+        "description": [
+          "Questo soggetto è un omaggio al mio carissimo amico, il maestro e pittore Vittorio Maria di Carlo, artista milanese recentemente scomparso.",
+          "Quest'opera fa parte di un ciclo \"storico\" che tratto da diversi anni. Una sorta di decodificazione dell'immaginario arcaico-mitologico attraverso lo studio di figure e composizioni che si rifanno all'archeologia del mio territorio, l'antica Daunia, in Puglia.",
+          "L'iconografia rappresenta una figura femminile fonte di fortuna e buona sorte, la figura della Musa, rappresentativa dell'antichità, come narrato nelle civiltà greco-romane."
+        ]
+      },
+      {
+        "quote": "Sandy ha trascinato con sé dal mare anche conchiglie, che al loro interno hanno intrappolato i suoni, i rumori e le note tipici degli uragani.",
+        "dimensions": "40×50 cm",
+        "date": "Luglio 2013",
+        "technique": "Acrilico su tela",
+        "description": [
+          "Sandy rappresenta il ricordo più vivido della mia prima visita a Boston tra fine ottobre e novembre 2012. L'uragano si abbatté sulla costa Est il 29 ottobre, colpendo principalmente New York. Eseguii uno studio subito dopo l'evento, poi realizzai l'opera su tela al rientro in Italia.",
+          "Realizzata con colori acrilici, propone una veduta satellitare dell'uragano Sandy. La costa orientale americana appare \"ricoperta\" dall'evento, con l'occhio concentrato su New York City. L'uragano, partendo dal mare, trascinò alghe e conchiglie per decine di chilometri nell'entroterra. Queste ultime racchiudono naturalmente i suoni e rumori marini. Immagino che contengano anche i suoni dell'uragano, riportati lungo il vortice a spirale, come se fluttuassero verso l'osservatore.",
+          "L'opera fu esposta a Palazzo San Domenico a Manfredonia nel settembre 2013, con il patrocinio del Comune di Manfredonia e in collaborazione con il Festival Internazionale di Chitarra."
+        ]
+      },
+      {
+        "quote": "Nella mia terra le spiagge del Gargano portano con sé i solchi della natura e del suo corso millenario.",
+        "dimensions": "50×60 cm",
+        "date": "Giugno 2019",
+        "technique": "Tecnica mista su tela",
+        "description": [
+          "La mia Terra, il Gargano, ha delle spiagge che portano con sé i solchi della natura e del suo corso millenario.",
+          "I nostri nonni ci raccontavano di fantastici ritrovamenti, e infatti, ancora oggi, di tanto in tanto, tra fossili e conchiglie emergono anche i resti di una storia scomparsa, tracce di una civiltà che non c'è più, spinta dalla Terra e risucchiata dal Mare, i Dauni."
+        ]
+      }
     ]
   },
   "bio": {

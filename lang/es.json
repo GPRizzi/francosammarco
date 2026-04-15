@@ -18,6 +18,12 @@
     "label": "Galería",
     "title": "Obras",
     "subtitle": "Haz clic en las imágenes para explorar",
+    "back": "Volver a las obras",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "info_dimensions": "Dimensiones",
+    "info_date": "Fecha",
+    "info_technique": "Técnica",
     "artworks": [
       "Naturaleza muerta con Panamá",
       "Atelier 2020",
@@ -26,6 +32,86 @@
       "Musa Dauna",
       "Sandy — El sonido del Océano",
       "Fósiles"
+    ],
+    "details": [
+      {
+        "quote": "Cada día en el Northern Territory hay un atardecer nuevo, un ciclo infinito de nuevos colores.",
+        "dimensions": "50×40 cm",
+        "date": "Junio 2020",
+        "technique": "Acrílico sobre lienzo",
+        "description": [
+          "Al llegar a Darwin, en Australia, no esperaba encontrar un sol con rayos tan insidiosos. Para protegerme de las jornadas tropicales, cálidas y secas, de la Dry Season en el Northern Territory, la primera solución fue comprar un sombrero Panamá. Ese sombrero me acompañó durante mis paseos cotidianos, especialmente los de la tarde que, casi cada día, se prolongaban hasta la puesta de sol.",
+          "Este rincón de territorio australiano nos regala atardeceres impagables. En particular, a lo largo de la costa de Darwin, el sol, a través del juego natural de las nubes, proyecta sus rayos aún más allá del horizonte, hasta los últimos destellos de luz, como en las ensenadas de Cullen Bay, Mindil Beach y Nightcliff, mis favoritas. Fue precisamente esta última la que me inspiró « Naturaleza muerta con Panamá ».",
+          "Cada día en el Northern Territory hay un atardecer nuevo, un ciclo infinito de nuevos colores. Durante uno de esos atardeceres me detuve con los pies sobre la arena, descubierta por la marea baja, a observar a una pareja de enamorados (representada aquí con dos pimientos rojos) que, cerca de la orilla, brindaba con vino tinto. Las luces de aquel magnífico atardecer se fundían en sus copas, engarzándolas hacia el horizonte como si fueran dos rubíes. Imaginé que aquel vino era Chianti, igual que el Chianti que saboreaba cuando, durante los diez años vividos en Toscana, me acercaba a las orillas del Arno para admirar los colores de Florencia al atardecer.",
+          "En los dos extremos de la composición destacan dos hojas. A la izquierda, una gran hoja de « Monstera Deliciosa » que representa la caducidad de la vida; a la derecha, una hoja de « Frangipani » (Plumeria) que remite a un nuevo día, una nueva vida. En efecto, aun desprendida de la rama, resiste con esa poca savia que le permite hacer renacer una nueva planta, un nuevo día, un nuevo amor. ¿No será acaso la transición hacia una nueva vía artística la que, en este particular período de mi vida, me ha llevado a apasionarme tanto por un territorio lejano y tan diferente al mío?"
+        ]
+      },
+      {
+        "quote": "La huella de Guernica es la demostración de esta sociedad actual fragmentada y sin certezas. La única certeza que queda es la casa, escudo de las artes y las pasiones.",
+        "dimensions": "122×92 cm",
+        "date": "Abril 2020",
+        "technique": "Acrílico sobre lienzo",
+        "description": [
+          "La obra nace en Australia, donde permanecí durante tres meses (marzo-junio 2020) debido a la imposibilidad de viajar en aquel período tan particular. Comencé a trabajar en un primer boceto una vez llegado a Darwin, durante el período de « autoaislamiento voluntario » en casa de mi hijo, que vive aquí desde hace más de tres años. Mientras ayudaba a mi hijo a construir una mesa de comedor con tapa de cemento gris y estructura de hierro tubular pintado de amarillo, se me ocurrió la idea de ambientar mi obra precisamente en el comedor de la casa, es decir, mi taller temporal. Pensé inmediatamente en Picasso y en Renato Guttuso, dos de mis más grandes artistas de referencia.",
+          "Desde el punto de vista compositivo, en el centro, me inspiré en la « Naturaleza muerta con el hacha » de 1947 de Guttuso: las frasquetas de aquella obra siempre me habían recordado mi infancia, las semanas de septiembre en las que, en Viareggio, ayudaba a un tío a empajar frascos y damajuanas. Sobre la mesa hay además limones e higos chumbos, frutos de Puglia, mi tierra natal, que me acercan a la Sicilia de Guttuso. Finalmente, en el centro de la mesa se encuentra uno de mis libros preferidos, « Federico II Imperatore » de Ernst Kantorowicz. La figura del libro representa la cultura, base del saber y de la ciencia; mientras que la figura de Federico II, llamado Puer Apuliae (hijo de Puglia, mi región), padre de Manfredo (fundador de Manfredonia, mi ciudad), representa el vínculo directo entre la cultura y mi tierra.",
+          "En las paredes hay dos obras, como si fueran dos cuadros en posesión del artista. En la pared derecha, un detalle de « Guernica », la obra magna de Picasso: el Toro de entonces evoca la Pandemia de hoy; el caballo atormentado, herido, representa al hombre « anulado », golpeado en su orgullo, que aún no logra descubrir la vacuna, el antídoto contra el mal del siglo, el Covid-19. Las mujeres, una vez más, expresan la desesperación que reina en los hogares golpeados por el flagelo. A la flor que brota de la tierra le queda la misión de seguir esperando en la vida, en el futuro.",
+          "En la pared izquierda se compone una obra inspirada en el arte aborigen, un homenaje a esta cultura milenaria que he descubierto en los últimos años gracias a mis viajes por Australia. La planta que florece frente al cuadro y a la luz, junto con la Naturaleza muerta y Guernica, simbolizan el retorno al respeto por la Tierra y la Naturaleza.",
+          "Esta obra es la demostración de que los propios pensamientos y pasiones se pueden meter en una maleta y cambiar de latitud, pero no de intensidad. He llevado Puglia conmigo en tantas referencias presentes, y el Atelier me hace pensar también en la habitación de Van Gogh por sus colores y estilo."
+        ]
+      },
+      {
+        "quote": "He querido unir las líneas fugaces de la naturaleza — Paul Cézanne",
+        "dimensions": "50×35 cm",
+        "date": "Febrero 2020",
+        "technique": "Acrílico sobre lienzo",
+        "description": [
+          "Esta obra representa mi vínculo personal con la Costa Azul y la Provenza, lugares queridos por algunos de los artistas que más han marcado mi trayectoria artística, como Picasso y Cézanne.",
+          "El cuadro retrata la célebre localidad de Saint-Tropez en una vista desde la colina que domina el centro histórico y la bahía. La obra nace de un estudio preparado en 2003, durante mi estancia en la Costa Azul con ocasión de la colectiva en el Palacio de Festivales de Cannes.",
+          "Los tejados y las fachadas de las casas en primer plano, reducidos a una geometría esencial a través del predominio de líneas rectas, aristas vivas y gama cromática, evocan de manera cautivadora los pueblos de mi tierra, especialmente los de la costa del Gargano. Las casas se anteponen al paisaje árido y soleado del promontorio costero, mientras el mar actúa como tejido conectivo entre ambos."
+        ]
+      },
+      {
+        "quote": "El caballo, en esta metáfora, representa al hombre que vive en una sociedad frenética, donde lo fútil predomina.",
+        "dimensions": "60×50 cm",
+        "date": "Agosto 2019",
+        "technique": "Acrílico sobre lienzo",
+        "description": [
+          "La obra se ambienta a los pies del Gargano, en el Golfo de Manfredonia. En el centro, en primer plano, un caballo a la orilla del mar se detiene, casi asombrado, ante un fragmento pétreo. Vestigio arqueológico de época prerromana. Su carrera tempestuosa, vehemente, se anula casi ante la cultura, ante la arqueología.",
+          "El caballo, en esta metáfora, representa al hombre que vive en una sociedad frenética, donde lo fútil predomina. El vestigio arqueológico representa la llamada a la búsqueda del propio ser y de las propias raíces, capaz de atraer nuestra atención cuando menos lo esperamos."
+        ]
+      },
+      {
+        "quote": "La Musa, figura femenina del imaginario arcaico-mitológico, era fuente de fortuna y buen augurio.",
+        "dimensions": "50×60 cm",
+        "date": "Septiembre 2015",
+        "technique": "Acrílico sobre lienzo",
+        "description": [
+          "Este tema es un homenaje a mi queridísimo amigo, el maestro y pintor Vittorio Maria di Carlo, artista milanés recientemente desaparecido.",
+          "Esta obra forma parte de un ciclo « histórico » que desarrollo desde hace varios años. Una suerte de decodificación del imaginario arcaico-mitológico a través del estudio de figuras y composiciones que se remiten a la arqueología de mi territorio, la antigua Daunia, en Puglia.",
+          "La iconografía representa una figura femenina fuente de fortuna y buen augurio, la figura de la Musa, representativa de la antigüedad, tal como se narra en las civilizaciones grecorromanas."
+        ]
+      },
+      {
+        "quote": "Sandy arrastró consigo desde el mar también conchas que en su interior atraparon los sonidos, los ruidos y las notas típicos de los huracanes.",
+        "dimensions": "40×50 cm",
+        "date": "Julio 2013",
+        "technique": "Acrílico sobre lienzo",
+        "description": [
+          "Sandy representa el recuerdo más vívido de mi primera visita a Boston, entre finales de octubre y noviembre de 2012. El huracán azotó la costa Este el 29 de octubre, golpeando principalmente Nueva York. Realicé un estudio inmediatamente después del evento y luego ejecuté la obra sobre lienzo a mi regreso a Italia.",
+          "Realizada con colores acrílicos, propone una vista satelital del huracán Sandy. La costa oriental estadounidense aparece « cubierta » por el evento, con el ojo concentrado sobre New York City. El huracán, partiendo del mar, arrastró algas y conchas durante decenas de kilómetros hacia el interior. Estas últimas encierran naturalmente los sonidos y ruidos marinos. Imagino que contienen también los sonidos del huracán, transportados a lo largo del vórtice en espiral, como si flotaran hacia el observador.",
+          "La obra fue expuesta en el Palazzo San Domenico de Manfredonia en septiembre de 2013, con el patrocinio del Ayuntamiento de Manfredonia y en colaboración con el Festival Internacional de Guitarra."
+        ]
+      },
+      {
+        "quote": "En mi tierra, las playas del Gargano llevan consigo los surcos de la naturaleza y de su curso milenario.",
+        "dimensions": "50×60 cm",
+        "date": "Junio 2019",
+        "technique": "Técnica mixta sobre lienzo",
+        "description": [
+          "Mi Tierra, el Gargano, tiene playas que llevan consigo los surcos de la naturaleza y de su curso milenario.",
+          "Nuestros abuelos nos contaban fantásticos hallazgos y, en efecto, aún hoy, de vez en cuando, entre fósiles y conchas emergen también los restos de una historia desaparecida, las huellas de una civilización que ya no existe, empujada por la Tierra y absorbida por el Mar: los Daunos."
+        ]
+      }
     ]
   },
   "bio": {

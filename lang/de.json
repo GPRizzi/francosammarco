@@ -18,6 +18,12 @@
     "label": "Galerie",
     "title": "Werke",
     "subtitle": "Klicken Sie auf die Bilder, um mehr zu erfahren",
+    "back": "Zurück zu den Werken",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "info_dimensions": "Maße",
+    "info_date": "Datum",
+    "info_technique": "Technik",
     "artworks": [
       "Stillleben mit Panamahut",
       "Atelier 2020",
@@ -26,6 +32,86 @@
       "Daunische Muse",
       "Sandy — Der Klang des Ozeans",
       "Fossilien"
+    ],
+    "details": [
+      {
+        "quote": "Jeden Tag gibt es im Northern Territory einen neuen Sonnenuntergang, einen endlosen Zyklus neuer Farben.",
+        "dimensions": "50×40 cm",
+        "date": "Juni 2020",
+        "technique": "Acryl auf Leinwand",
+        "description": [
+          "Als ich in Darwin, Australien, ankam, hatte ich nicht erwartet, eine Sonne mit so tückischen Strahlen vorzufinden. Um mich vor den tropischen, heißen und trockenen Tagen der Dry Season im Northern Territory zu schützen, war die erste Lösung der Kauf eines Panamahuts. Dieser Hut begleitete mich auf meinen täglichen Spaziergängen, besonders auf jenen am Nachmittag, die sich fast jeden Tag bis zum Sonnenuntergang hinzogen.",
+          "Dieser Winkel australischen Territoriums schenkt uns unbezahlbare Sonnenuntergänge. Insbesondere entlang der Küste von Darwin projiziert die Sonne durch das natürliche Spiel der Wolken ihre Strahlen noch über den Horizont hinaus, bis zu den letzten Lichtfunken, wie in den Buchten von Cullen Bay, Mindil Beach und Nightcliff, meinen Lieblingsorten. Gerade letzterer hat mich zu « Stillleben mit Panamahut » inspiriert.",
+          "Jeden Tag gibt es im Northern Territory einen neuen Sonnenuntergang, einen endlosen Zyklus neuer Farben. Während eines dieser Sonnenuntergänge blieb ich mit den Füßen auf dem Sand stehen, der bei Ebbe freigelegt worden war, und beobachtete ein verliebtes Paar (hier dargestellt durch zwei rote Paprikaschoten), das in Ufernähe mit Rotwein anstieß. Das Licht dieses prächtigen Sonnenuntergangs verschmolz in ihren Gläsern und fasste sie zum Horizont hin wie zwei Rubine. Ich stellte mir vor, dass jener Wein ein Chianti war, genau wie der Chianti, den ich genoss, als ich während der zehn Jahre in der Toskana an die Ufer des Arno ging, um die Farben von Florenz bei Sonnenuntergang zu bewundern.",
+          "An den beiden Enden der Komposition prangen zwei Blätter. Links ein großes Blatt der « Monstera Deliciosa », das die Vergänglichkeit des Lebens darstellt; rechts ein Blatt des « Frangipani » (Plumeria), das auf einen neuen Tag, ein neues Leben verweist. Denn selbst vom Zweig getrennt, widersteht es mit jenem Rest an Lebenssaft, der es ermöglicht, eine neue Pflanze hervorzubringen, einen neuen Tag, eine neue Liebe. Ist es nicht vielleicht der Übergang zu einem neuen künstlerischen Weg, der mich in dieser besonderen Lebensphase dazu gebracht hat, mich so leidenschaftlich für ein fernes und so andersartiges Territorium zu begeistern?"
+        ]
+      },
+      {
+        "quote": "Das Zeichen von Guernica ist der Beweis dieser heutigen fragmentierten Gesellschaft ohne Gewissheit. Die einzige verbliebene Gewissheit ist das Haus, Schild der Künste und Leidenschaften.",
+        "dimensions": "122×92 cm",
+        "date": "April 2020",
+        "technique": "Acryl auf Leinwand",
+        "description": [
+          "Das Werk entstand in Australien, wo ich drei Monate lang blieb (März bis Juni 2020), da das Reisen in dieser besonderen Zeit unmöglich war. Ich begann an einem ersten Entwurf zu arbeiten, nachdem ich in Darwin angekommen war, während der Phase der « freiwilligen Selbstisolation » im Haus meines Sohnes, der seit über drei Jahren hier lebt. Während ich meinem Sohn half, einen Esstisch mit grauer Betonplatte und gelb lackierter Stahlrohrstruktur zu bauen, kam mir die Idee, mein Werk genau im Esszimmer des Hauses anzusiedeln, also meinem vorübergehenden Atelier. Sofort dachte ich an Picasso und an Renato Guttuso, zwei meiner größten künstlerischen Vorbilder.",
+          "Kompositorisch habe ich mich in der Mitte von Guttusos « Stillleben mit Beil » von 1947 inspirieren lassen: Die Korbflaschen dieses Werks haben mich immer an meine Kindheit erinnert, an die Septemberwochen, in denen ich in Viareggio einem Onkel half, Korbflaschen und Korbballons zu flechten. Auf dem Tisch liegen außerdem Zitronen und Kaktusfeigen, Früchte Apuliens, meiner Heimat, die mich dem Sizilien Guttusos näherbringen. Schließlich befindet sich in der Mitte des Tisches eines meiner Lieblingsbücher, « Federico II Imperatore » von Ernst Kantorowicz. Die Figur des Buches steht für die Kultur als Grundlage des Wissens und der Wissenschaft; die Figur Friedrichs II., genannt Puer Apuliae (Sohn Apuliens, meiner Region), Vater Manfreds (Gründer von Manfredonia, meiner Stadt), steht hingegen für die unmittelbare Verbindung zwischen Kultur und meiner Heimat.",
+          "An den Wänden hängen zwei Werke, als wären es zwei Bilder im Besitz des Künstlers. An der rechten Wand ein Ausschnitt aus « Guernica », dem Hauptwerk Picassos: Der Stier von damals erinnert an die Pandemie von heute; das gequälte, verwundete Pferd stellt den « ausgelöschten » Menschen dar, in seinem Stolz getroffen, der es noch nicht schafft, den Impfstoff zu entdecken, das Gegenmittel gegen das Übel des Jahrhunderts, Covid-19. Die Frauen drücken einmal mehr die Verzweiflung aus, die in den vom Unheil getroffenen Häusern herrscht. Der Blume, die aus der Erde sprießt, bleibt die Aufgabe, weiterhin auf das Leben, auf die Zukunft zu hoffen!",
+          "An der linken Wand ist ein Werk komponiert, das sich von der Kunst der Aborigines inspirieren lässt — eine Hommage an diese jahrtausendealte Kultur, die ich in den letzten Jahren dank meiner Reisen nach Australien entdeckt habe. Die Pflanze, die vor dem Bild und dem Licht üppig gedeiht, symbolisiert zusammen mit dem Stillleben und Guernica die Rückkehr zum Respekt vor der Erde und der Natur.",
+          "Dieses Werk beweist, dass man seine Gedanken und Leidenschaften in einen Koffer packen und den Breitengrad wechseln kann, nicht aber die Intensität. Ich habe Apulien in vielen Bezügen mit mir getragen, und das Atelier erinnert mich auch an Van Goghs Zimmer — in Farben und Stil."
+        ]
+      },
+      {
+        "quote": "Ich wollte die flüchtigen Linien der Natur verbinden — Paul Cézanne",
+        "dimensions": "50×35 cm",
+        "date": "Februar 2020",
+        "technique": "Acryl auf Leinwand",
+        "description": [
+          "Dieses Werk verkörpert meine persönliche Verbundenheit mit der Côte d'Azur und der Provence, Orte, die einigen der Künstler teuer waren, die meinen künstlerischen Werdegang am stärksten geprägt haben, wie Picasso und Cézanne.",
+          "Das Gemälde zeigt die berühmte Ortschaft Saint-Tropez in einer Ansicht von der Anhöhe, die das historische Zentrum und die Bucht überblickt. Das Werk entstand aus einer Studie, die ich 2003 während meines Aufenthalts an der Côte d'Azur anlässlich der Gruppenausstellung im Palais des Festivals in Cannes vorbereitet hatte.",
+          "Die Dächer und Fassaden der Häuser im Vordergrund, auf eine wesentliche Geometrie durch das Vorherrschen gerader Linien, scharfer Kanten und einer bestimmten Farbpalette reduziert, erinnern auf fesselnde Weise an die Dörfer meiner Heimat, insbesondere an jene an der Küste des Gargano. Die Häuser erheben sich vor der kargen, sonnendurchfluteten Landschaft des Küstenvorgebirges, während das Meer als verbindendes Gewebe zwischen beiden dient."
+        ]
+      },
+      {
+        "quote": "Das Pferd steht in dieser Metapher für den Menschen, der in einer hektischen Gesellschaft lebt, in der das Nichtige überwiegt.",
+        "dimensions": "60×50 cm",
+        "date": "August 2019",
+        "technique": "Acryl auf Leinwand",
+        "description": [
+          "Das Werk spielt am Fuße des Gargano, im Golf von Manfredonia. In der Mitte, im Vordergrund, ein Pferd am Meeresufer, das beinahe staunend vor einem Steinfragment innehält. Ein archäologisches Fundstück aus vorrömischer Zeit. Sein stürmischer, ungestümer Lauf erlischt beinahe vor der Kultur, vor der Archäologie.",
+          "Das Pferd steht in dieser Metapher für den Menschen, der in einer hektischen Gesellschaft lebt, in der das Nichtige überwiegt. Das archäologische Fundstück hingegen steht für den Ruf zur Suche nach dem eigenen Sein und den eigenen Wurzeln, fähig, unsere Aufmerksamkeit zu fesseln, wenn wir es am wenigsten erwarten."
+        ]
+      },
+      {
+        "quote": "Die Muse, weibliche Gestalt der archaisch-mythologischen Vorstellungswelt, war Quelle des Glücks und des guten Omens.",
+        "dimensions": "50×60 cm",
+        "date": "September 2015",
+        "technique": "Acryl auf Leinwand",
+        "description": [
+          "Dieses Motiv ist eine Hommage an meinen liebsten Freund, den Meister und Maler Vittorio Maria di Carlo, einen kürzlich verstorbenen Mailänder Künstler.",
+          "Dieses Werk gehört zu einem « historischen » Zyklus, den ich seit mehreren Jahren verfolge. Eine Art Entschlüsselung der archaisch-mythologischen Vorstellungswelt durch das Studium von Figuren und Kompositionen, die sich auf die Archäologie meines Territoriums beziehen, die antike Daunia in Apulien.",
+          "Die Ikonografie zeigt eine weibliche Gestalt als Quelle des Glücks und des guten Omens, die Figur der Muse, repräsentativ für die Antike, wie sie in den griechisch-römischen Zivilisationen überliefert wurde."
+        ]
+      },
+      {
+        "quote": "Sandy hat aus dem Meer auch Muscheln mitgerissen, die in ihrem Inneren die Klänge, Geräusche und Töne eingefangen haben, die für Hurrikane typisch sind.",
+        "dimensions": "40×50 cm",
+        "date": "Juli 2013",
+        "technique": "Acryl auf Leinwand",
+        "description": [
+          "Sandy steht für die lebendigste Erinnerung an meinen ersten Besuch in Boston zwischen Ende Oktober und November 2012. Der Hurrikan traf am 29. Oktober auf die Ostküste und verwüstete vor allem New York. Unmittelbar nach dem Ereignis fertigte ich eine Studie an und setzte das Werk nach meiner Rückkehr nach Italien auf Leinwand um.",
+          "In Acrylfarben ausgeführt, zeigt das Werk eine Satellitenansicht des Hurrikans Sandy. Die amerikanische Ostküste erscheint vom Ereignis « bedeckt », mit dem Auge auf New York City konzentriert. Der Hurrikan schleppte vom Meer kommend Algen und Muscheln über Dutzende von Kilometern ins Landesinnere. Letztere bergen von Natur aus die Klänge und Geräusche des Meeres. Ich stelle mir vor, dass sie auch die Klänge des Hurrikans enthalten, entlang des spiralförmigen Wirbels zurückgetragen, als schwebten sie dem Betrachter entgegen.",
+          "Das Werk wurde im September 2013 im Palazzo San Domenico in Manfredonia ausgestellt, unter der Schirmherrschaft der Gemeinde Manfredonia und in Zusammenarbeit mit dem Internationalen Gitarrenfestival."
+        ]
+      },
+      {
+        "quote": "In meiner Heimat tragen die Strände des Gargano die Furchen der Natur und ihres jahrtausendealten Laufs in sich.",
+        "dimensions": "50×60 cm",
+        "date": "Juni 2019",
+        "technique": "Mischtechnik auf Leinwand",
+        "description": [
+          "Meine Heimat, der Gargano, besitzt Strände, die die Furchen der Natur und ihres jahrtausendealten Laufs in sich tragen.",
+          "Unsere Großeltern erzählten uns von fantastischen Funden, und tatsächlich tauchen noch heute, hin und wieder, zwischen Fossilien und Muscheln auch die Überreste einer verschwundenen Geschichte auf, Spuren einer Zivilisation, die nicht mehr existiert, von der Erde emporgedrückt und vom Meer verschlungen: die Daunier."
+        ]
+      }
     ]
   },
   "bio": {
